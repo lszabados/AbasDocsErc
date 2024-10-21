@@ -24,6 +24,10 @@
             "text": "BDE",
             "items": [
                 {
+                    "text": "BDE",
+                    "path": "bde/index.md"
+                },
+                {
                     "text": "BDE kiértékelések",
                     "path": "bde/bde-kiertekelesek.md"
                 },
@@ -40,6 +44,10 @@
         {
             "text": "Beszerzés",
             "items": [
+                {
+                    "text": "Beszerzés",
+                    "path": "beszerzes/index.md"
+                },
                 {
                     "text": "Ajánlatkérések",
                     "path": "beszerzes/ajanlatkeresek.md"
@@ -74,6 +82,10 @@
             "text": "Értékesítés",
             "items": [
                 {
+                    "text": "Értékesítés",
+                    "path": "ertekesites/index.md"
+                },
+                {
                     "text": "Ajánlat",
                     "path": "ertekesites/ajanlat.md"
                 },
@@ -95,8 +107,16 @@
             "text": "Raktározás",
             "items": [
                 {
+                    "text": "Raktározás",
+                    "path": "raktarozas/index.md"
+                },
+                {
                     "text": "Leltár",
                     "items": [
+                        {
+                            "text": "Leltár",
+                            "path": "raktarozas/leltar/index.md"
+                        },
                         {
                             "text": "Leltárív",
                             "path": "raktarozas/leltar/leltariv.md"
@@ -161,12 +181,16 @@
             "text": "Tervezés",
             "items": [
                 {
+                    "text": "Tervezés",
+                    "path": "tervezes/index.md"
+                },
+                {
                     "text": "Ajánlatok ellenőrzése",
                     "path": "tervezes/ajanlatok-ellenorzese.md"
                 },
                 {
                     "text": "Cikk cseréje gyártási listákon",
-                    "path": "tervezes/cikk-csereje-gyartasi-listakon.md"
+                    "path": "tervezes/cikk-csereje-gyartasi-listan.md"
                 },
                 {
                     "text": "Gyártási javaslatok gyártási listájának frissítése",
@@ -190,7 +214,7 @@
                 },
                 {
                     "text": "Megbízási gyártási lista javítása",
-                    "path": "tervezes/megbazi-gyartasi-lista-javitasa.md"
+                    "path": "tervezes/megbizasi-gyartasi-lista-javitasa.md"
                 },
                 {
                     "text": "Összesített előkalkuláció",
@@ -247,6 +271,10 @@
             "text": "Gyártás",
             "items": [
                 {
+                    "text": "Gyártás",
+                    "path": "gyartas/index.md"
+                },
+                {
                     "text": "Gyártási központ",
                     "path": "gyartas/gyartasi-kozpont.md"
                 },
@@ -256,7 +284,7 @@
                 },
                 {
                     "text": "Megbízások készültsége",
-                    "path": "gyartas/megbizasok-kesultsege.md"
+                    "path": "gyartas/megbizasok-keszultsege.md"
                 },
                 {
                     "text": "Művelet könyvelése",

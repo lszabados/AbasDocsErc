@@ -25,15 +25,15 @@
     "items" :[
         {
             "text":"BDE kiértékelések",
-            "path":"BDE-kiertekelesek.md"
+            "path":"bde/BDE-kiertekelesek.md"
         },
         {
             "text":"Ember-idő",
-            "path":"Ember-ido.md"
+            "path":"bde/Ember-ido.md"
         },
         {
             "text":"Megbízás időtartam",
-            "path":"Megbizas-idotartam.md"
+            "path":"bde/Megbizas-idotartam.md"
         }
     ]},
     {
@@ -41,41 +41,41 @@
     "items":[
          {
             "text":"Ajánlatkérések",
-            "path":"Ajanlatkeresek.md"
+            "path":"beszerzes/Ajanlatkeresek.md"
          },
          {"text":"Beszerzési ár hibakeresés",
-         "path":"Beszerzesi-ar-hibakereses.md"
+         "path":"beszerzes/Beszerzesi-ar-hibakereses.md"
          },
          {"text":"Beszerzési javaslatok",
-            "path":"Beszerzesi-javaslatok.md"
+            "path":"beszerzes/Beszerzesi-javaslatok.md"
             },
             {"text":"Megrendelés",
-            "path":"Megrendeles.md"
+            "path":"beszerzes/Megrendeles.md"
             },
             {"text":"Szállítólevél",
-            "path":"Szallitolevel.md"
+            "path":"beszerzes/Szallitolevel.md"
             },
             {"text":"Számla",
-            "path":"Szamla.md"
+            "path":"beszerzes/Szamla.md"
             },
             {"text":"Visszaszállítás",
-            "path":"Visszaszallitas.md"
+            "path":"beszerzes/Visszaszallitas.md"
             }
     ]
     },
     { "text" : "Értékesítés",
     "items":[
         {"text":"Ajánlat",
-        "path":"Ajanlat.md"
+        "path":"ertekesites/Ajanlat.md"
         },
         {"text":"Megbízás",
-        "path":"Megbizas.md"
+        "path":"ertekesites/Megbizas.md"
         },
         {"text":"Szállítólevél",
-        "path":"Szallitolevel.md"
+        "path":"ertekesites/Szallitolevel.md"
         },
         {"text":"Számla",
-        "path":"Szamla.md"
+        "path":"ertekesites/Szamla.md"
         }
     ]
     },
@@ -86,53 +86,53 @@
             "items":[
                 {
                     "text":"Leltárív",
-                    "path":"Leltariv.md"
+                    "path":"raktarozas/leltar/Leltariv.md"
                 },
                 {
                     "text":"Leltárközpont",
-                    "path":"Leltarkozpont.md"
+                    "path":"raktarozas/leltar/Leltarkozpont.md"
                 },
                 {
                     "text":"Leltározás folyamata",
-                    "path":"Leltarozas-folyamata.md"
+                    "path":"raktarozas/leltar/Leltarozas-folyamata.md"
                 }
             ]
         },
         {
             "text":"Átraktározás",
-            "path":"Atraktarozas.md"
+            "path":"raktarozas/Atraktarozas.md"
         },
         {
             "text":"Bejövő készlet helyre rakása",
-            "path":"Bejovo-keszlet-helyre-rakasa.md"
+            "path":"raktarozas/Bejovo-keszlet-helyre-rakasa.md"
         },
         {
             "text":"Bejovő készlet pótláshoz",
-            "path":"Bejovo-keszlet-potlashoz.md"
+            "path":"raktarozas/Bejovo-keszlet-potlashoz.md"
         },
         {"text":"Bestand infosystem",
-        "path":"Bestand-infosystem.md"
+        "path":"raktarozas/Bestand-infosystem.md"
         },
         {"text":"Címkenyomtatás",
-        "path":"Cimkenyomtatas.md"
+        "path":"raktarozas/Cimkenyomtatas.md"
         },
         {"text":"Készletkorrekció",
-        "path":"Keszletkorrekcio.md"
+        "path":"raktarozas/Keszletkorrekcio.md"
         },
         {"text":"Kitszedés",
-        "path":"Kitszedes.md"
+        "path":"raktarozas/Kitszedes.md"
         },
         {"text":"Manuális raktárkönyvelsés",
-        "path":"Manualis-raktarkonyveles.md"
+        "path":"raktarozas/Manualis-raktarkonyveles.md"
         },
         {"text":"Raktár, Raktárhely, Raktárcsoport",
-        "path":"Raktar-Raktarhely-Raktarcsoport.md"
+        "path":"raktarozas/Raktar-Raktarhely-Raktarcsoport.md"
         },
         {"text":"Tervlap",
-        "path":"Tervlap.md"
+        "path":"raktarozas/Tervlap.md"
         },
         {"text":"Üzemi raktárhelyek",
-        "path":"Uzemi-raktarhelyek.md"
+        "path":"raktarozas/Uzemi-raktarhelyek.md"
         }
     ]
     },
@@ -140,62 +140,62 @@
     "items":[
         {
             "text":"Ajánlatok ellenőrzése",
-            "path":"Ajanlatok-ellenorzese.md"
+            "path":"tervezes/Ajanlatok-ellenorzese.md"
         },
         { "text":"Cikk cseréje gyártási listákon",
-        "path":"Cikk-csereje-gyartasi-listakon.md"
+        "path":"tervezes/Cikk-csereje-gyartasi-listakon.md"
         },
         { "text":"Gyártási javaslatok gyártási listájának frissítése",
-        "path":"Gyartasi-javaslatok-gyartasi-listajanak-frissitese.md"
+        "path":"tervezes/Gyartasi-javaslatok-gyartasi-listajanak-frissitese.md"
         },
         { "text":"Gyártási lista ellenőrzés",
-        "path":"Gyartasi-lista-ellenorzes.md"
+        "path":"tervezes/Gyartasi-lista-ellenorzes.md"
         },
         { "text":"Gyártási lista",
-        "path":"Gyartasi-lista.md"
+        "path":"tervezes/Gyartasi-lista.md"
         },
         { "text":"Késztermék másolása",
-        "path":"Kesztermek-masolasa.md"
+        "path":"tervezes/Kesztermek-masolasa.md"
         },
         { "text":"Külső raktárcsoport váltás",
-        "path":"Kulso-raktarcsoport-valtas.md"
+        "path":"tervezes/Kulso-raktarcsoport-valtas.md"
         },
         { "text":"Megbízási gyártási lista javítása",
-        "path":"Megbazi-gyartasi-lista-javitasa.md"
+        "path":"tervezes/Megbazi-gyartasi-lista-javitasa.md"
         },
         { "text":"Összesített előkalkuláció",
-        "path":"Osszesitett-elokalkulacio.md"
+        "path":"tervezes/Osszesitett-elokalkulacio.md"
     }
     ]
     },
     { "text" : "Törzsadatok",
     "items":[
         {"text":"Árak", 
-        "path":"Arak.md"
+        "path":"torzsadatok/Arak.md"
         },
         {"text":"Bank-bankkapcsolat",
-        "path":"Bank-bankkapcsolat.md"
+        "path":"torzsadatok/Bank-bankkapcsolat.md"
         },
         {"text":"Cikkek",
-        "path":"Cikkek.md"
+        "path":"torzsadatok/Cikkek.md"
         },
         {"text":"Dolgozók",
-        "path":"Dolgozok.md"
+        "path":"torzsadatok/Dolgozok.md"
         },
         {"text":"Egységek",
-        "path":"Egysegek.md"
+        "path":"torzsadatok/Egysegek.md"
         },
         {"text":"Műveletek",
-        "path":"Muveletek.md"
+        "path":"torzsadatok/Muveletek.md"
         },
         {"text":"Naptár",
-        "path":"Naptar.md"
+        "path":"torzsadatok/Naptar.md"
         },
         {"text":"Szállítók",
-        "path":"Szallitok.md"
+        "path":"torzsadatok/Szallitok.md"
         },
         {"text":"Vevők",
-        "path":"Vevok.md"
+        "path":"torzsadatok/Vevok.md"
         }
         ]
     },
@@ -203,28 +203,28 @@
     "items":[
         {
             "text":"Gyártási központ",
-            "path":"Gyartasi-kozpont.md"
+            "path":"gyartas/Gyartasi-kozpont.md"
         },
         {"text":"Gyártási javaslatok elfogadása",
-        "path":"Gyartasi-javaslatok-elfogadas.md"
+        "path":"gyartas/Gyartasi-javaslatok-elfogadas.md"
         },
         {"text":"Megbízások készültsége",
-        "path":"Megbizasok-kesultsege.md"
+        "path":"gyartas/Megbizasok-kesultsege.md"
         },
         {"text":"Művelet könyvelése",
-        "path":"Muvelet-konyvelese.md"
+        "path":"gyartas/Muvelet-konyvelese.md"
         },
         {"text":"Művelet megkezsése",
-        "path":"Muvelet-megkezdese.md"
+        "path":"gyartas/Muvelet-megkezdese.md"
         },
         {"text":"Művelet lezárása",
-        "path":"Muvelet-lezarasa.md"
+        "path":"gyartas/Muvelet-lezarasa.md"
         },
         {"text":"Papírok nyomtatása",
-        "path":"Papirok-nyomtatasa.md"
+        "path":"gyartas/Papirok-nyomtatasa.md"
         },
         {"text":"Üzemi megbízások felhasználása",
-        "path":"Uzemi-megbizasok-felhasznalasa.md"
+        "path":"gyartas/Uzemi-megbizasok-felhasznalasa.md"
         }
     ]
     }

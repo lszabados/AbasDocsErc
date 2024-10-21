@@ -1,0 +1,284 @@
+{
+    "items": [
+        {
+            "text": "Bevezető",
+            "path": "index.md"
+        },
+        {
+            "text": "Menük és beállítások",
+            "path": "menuk-beallitasok.md"
+        },
+        {
+            "text": "Mask",
+            "path": "mask.md"
+        },
+        {
+            "text": "Diszpozíció",
+            "path": "diszpozicio.md"
+        },
+        {
+            "text": "Infosystem",
+            "path": "infosystem.md"
+        },
+        {
+            "text": "BDE",
+            "items": [
+                {
+                    "text": "BDE kiértékelések",
+                    "path": "bde/bde-kiertekelesek.md"
+                },
+                {
+                    "text": "Ember-idő",
+                    "path": "bde/ember-ido.md"
+                },
+                {
+                    "text": "Megbízás időtartam",
+                    "path": "bde/megbizas-idotartam.md"
+                }
+            ]
+        },
+        {
+            "text": "Beszerzés",
+            "items": [
+                {
+                    "text": "Ajánlatkérések",
+                    "path": "beszerzes/ajanlatkeresek.md"
+                },
+                {
+                    "text": "Beszerzési ár hibakeresés",
+                    "path": "beszerzes/beszerzesi-ar-hibakereses.md"
+                },
+                {
+                    "text": "Beszerzési javaslatok",
+                    "path": "beszerzes/beszerzesi-javaslatok.md"
+                },
+                {
+                    "text": "Megrendelés",
+                    "path": "beszerzes/megrendeles.md"
+                },
+                {
+                    "text": "Szállítólevél",
+                    "path": "beszerzes/szallitolevel.md"
+                },
+                {
+                    "text": "Számla",
+                    "path": "beszerzes/szamla.md"
+                },
+                {
+                    "text": "Visszaszállítás",
+                    "path": "beszerzes/visszaszallitas.md"
+                }
+            ]
+        },
+        {
+            "text": "Értékesítés",
+            "items": [
+                {
+                    "text": "Ajánlat",
+                    "path": "ertekesites/ajanlat.md"
+                },
+                {
+                    "text": "Megbízás",
+                    "path": "ertekesites/megbizas.md"
+                },
+                {
+                    "text": "Szállítólevél",
+                    "path": "ertekesites/szallitolevel.md"
+                },
+                {
+                    "text": "Számla",
+                    "path": "ertekesites/szamla.md"
+                }
+            ]
+        },
+        {
+            "text": "Raktározás",
+            "items": [
+                {
+                    "text": "Leltár",
+                    "items": [
+                        {
+                            "text": "Leltárív",
+                            "path": "raktarozas/leltar/leltariv.md"
+                        },
+                        {
+                            "text": "Leltárközpont",
+                            "path": "raktarozas/leltar/leltarkozpont.md"
+                        },
+                        {
+                            "text": "Leltározás folyamata",
+                            "path": "raktarozas/leltar/leltarozas-folyamata.md"
+                        }
+                    ]
+                },
+                {
+                    "text": "Átraktározás",
+                    "path": "raktarozas/atraktarozas.md"
+                },
+                {
+                    "text": "Bejövő készlet helyre rakása",
+                    "path": "raktarozas/bejovo-keszlet-helyre-rakasa.md"
+                },
+                {
+                    "text": "Bejovő készlet pótláshoz",
+                    "path": "raktarozas/bejovo-keszlet-potlashoz.md"
+                },
+                {
+                    "text": "Bestand infosystem",
+                    "path": "raktarozas/bestand-infosystem.md"
+                },
+                {
+                    "text": "Címkenyomtatás",
+                    "path": "raktarozas/cimkenyomtatas.md"
+                },
+                {
+                    "text": "Készletkorrekció",
+                    "path": "raktarozas/keszletkorrekcio.md"
+                },
+                {
+                    "text": "Kitszedés",
+                    "path": "raktarozas/kitszedes.md"
+                },
+                {
+                    "text": "Manuális raktárkönyvelsés",
+                    "path": "raktarozas/manualis-raktarkonyveles.md"
+                },
+                {
+                    "text": "Raktár, Raktárhely, Raktárcsoport",
+                    "path": "raktarozas/raktar-raktarhely-raktarcsoport.md"
+                },
+                {
+                    "text": "Tervlap",
+                    "path": "raktarozas/tervlap.md"
+                },
+                {
+                    "text": "Üzemi raktárhelyek",
+                    "path": "raktarozas/uzemi-raktarhelyek.md"
+                }
+            ]
+        },
+        {
+            "text": "Tervezés",
+            "items": [
+                {
+                    "text": "Ajánlatok ellenőrzése",
+                    "path": "tervezes/ajanlatok-ellenorzese.md"
+                },
+                {
+                    "text": "Cikk cseréje gyártási listákon",
+                    "path": "tervezes/cikk-csereje-gyartasi-listakon.md"
+                },
+                {
+                    "text": "Gyártási javaslatok gyártási listájának frissítése",
+                    "path": "tervezes/gyartasi-javaslatok-gyartasi-listajanak-frissitese.md"
+                },
+                {
+                    "text": "Gyártási lista ellenőrzés",
+                    "path": "tervezes/gyartasi-lista-ellenorzes.md"
+                },
+                {
+                    "text": "Gyártási lista",
+                    "path": "tervezes/gyartasi-lista.md"
+                },
+                {
+                    "text": "Késztermék másolása",
+                    "path": "tervezes/kesztermek-masolasa.md"
+                },
+                {
+                    "text": "Külső raktárcsoport váltás",
+                    "path": "tervezes/kulso-raktarcsoport-valtas.md"
+                },
+                {
+                    "text": "Megbízási gyártási lista javítása",
+                    "path": "tervezes/megbazi-gyartasi-lista-javitasa.md"
+                },
+                {
+                    "text": "Összesített előkalkuláció",
+                    "path": "tervezes/osszesitett-elokalkulacio.md"
+                }
+            ]
+        },
+        {
+            "text": "Törzsadatok",
+            "items": [
+                {
+                    "text": "Törzsadatok",
+                    "path": "torzsadatok/index.md"
+                },
+                {
+                    "text": "Árak",
+                    "path": "torzsadatok/arak.md"
+                },
+                {
+                    "text": "Bank-bankkapcsolat",
+                    "path": "torzsadatok/bank-bankkapcsolat.md"
+                },
+                {
+                    "text": "Cikkek",
+                    "path": "torzsadatok/cikkek.md"
+                },
+                {
+                    "text": "Dolgozók",
+                    "path": "torzsadatok/dolgozok.md"
+                },
+                {
+                    "text": "Egységek",
+                    "path": "torzsadatok/egysegek.md"
+                },
+                {
+                    "text": "Műveletek",
+                    "path": "torzsadatok/muveletek.md"
+                },
+                {
+                    "text": "Naptár",
+                    "path": "torzsadatok/naptar.md"
+                },
+                {
+                    "text": "Szállítók",
+                    "path": "torzsadatok/szallitok.md"
+                },
+                {
+                    "text": "Vevők",
+                    "path": "torzsadatok/vevok.md"
+                }
+            ]
+        },
+        {
+            "text": "Gyártás",
+            "items": [
+                {
+                    "text": "Gyártási központ",
+                    "path": "gyartas/gyartasi-kozpont.md"
+                },
+                {
+                    "text": "Gyártási javaslatok elfogadása",
+                    "path": "gyartas/gyartasi-javaslatok-elfogadas.md"
+                },
+                {
+                    "text": "Megbízások készültsége",
+                    "path": "gyartas/megbizasok-kesultsege.md"
+                },
+                {
+                    "text": "Művelet könyvelése",
+                    "path": "gyartas/muvelet-konyvelese.md"
+                },
+                {
+                    "text": "Művelet megkezsése",
+                    "path": "gyartas/muvelet-megkezdese.md"
+                },
+                {
+                    "text": "Művelet lezárása",
+                    "path": "gyartas/muvelet-lezarasa.md"
+                },
+                {
+                    "text": "Papírok nyomtatása",
+                    "path": "gyartas/papirok-nyomtatasa.md"
+                },
+                {
+                    "text": "Üzemi megbízások felhasználása",
+                    "path": "gyartas/uzemi-megbizasok-felhasznalasa.md"
+                }
+            ]
+        }
+    ]
+}

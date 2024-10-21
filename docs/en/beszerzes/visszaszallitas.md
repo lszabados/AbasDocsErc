@@ -1,0 +1,1 @@
+# Beszerzett áru visszaszállítása

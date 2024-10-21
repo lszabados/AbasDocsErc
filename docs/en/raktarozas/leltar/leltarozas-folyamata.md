@@ -1,0 +1,1 @@
+# leltározás folyamata

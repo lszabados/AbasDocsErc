@@ -1,0 +1,1 @@
+# Ajánlatok ellenőrzése

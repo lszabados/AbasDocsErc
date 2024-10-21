@@ -1,0 +1,1 @@
+# Művelet könyvelése

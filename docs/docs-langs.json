@@ -1,0 +1,10 @@
+{
+  "Languages":[
+    {
+      "DisplayName" : "Magyar",
+      "Code" : "en",
+      "IsDefault": true
+    }
+    
+  ]
+}

@@ -1,1 +1,0 @@
-# Értékesítési szállítólevél

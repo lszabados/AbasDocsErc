@@ -1,1 +1,0 @@
-# Raktár, Raktárhely, Raktárcsoport

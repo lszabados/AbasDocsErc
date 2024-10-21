@@ -1,1 +1,0 @@
-# Megbízási gyártási lista javítása

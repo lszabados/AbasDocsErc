@@ -1,1 +1,0 @@
-# Művelet lezárása

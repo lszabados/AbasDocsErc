@@ -1,1 +1,0 @@
-# Cikk cseréje gyártási listán

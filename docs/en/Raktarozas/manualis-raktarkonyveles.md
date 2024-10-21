@@ -1,1 +1,0 @@
-# Manuális raktárkönyvelés

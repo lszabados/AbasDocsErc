@@ -1,0 +1,1 @@
+# Külső raktárcsoport váltás

@@ -1,0 +1,1 @@
+# Összesített előkalkuláció

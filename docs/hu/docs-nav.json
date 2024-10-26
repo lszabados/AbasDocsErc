@@ -53,6 +53,10 @@
                     "path": "beszerzes/ajanlatkeresek.md"
                 },
                 {
+                    "text": "Árucikk hibás árlista keresése",
+                    "path": "beszerzes/arucikk-hibas-arlista-keresese.md"
+                },
+                {
                     "text": "Beszerzési ár hibakeresés",
                     "path": "beszerzes/beszerzesi-ar-hibakereses.md"
                 },
@@ -75,6 +79,10 @@
                 {
                     "text": "Visszaszállítás",
                     "path": "beszerzes/visszaszallitas.md"
+                },
+                {
+                    "text": "Mennyiségi újraértékelés",
+                    "path": "beszerzes/mennyisegi-ujraertekeles.md"
                 }
             ]
         },
@@ -98,8 +106,11 @@
                     "path": "ertekesites/szallitolevel.md"
                 },
                 {
-                    "text": "Számla",
-                    "path": "ertekesites/szamla.md"
+                    "text": "Értékesítési ügyletek",
+                    "path": "ertekesites/ertekesitesi-ugyletek.md"
+                },{
+                    "text": "Szállítólevél",
+                    "path": "ertekesites/szallitolevel.md"
                 }
             ]
         },
@@ -157,6 +168,10 @@
                 {
                     "text": "Üzemi raktárhelyek",
                     "path": "raktarozas/uzemi-raktarhelyek.md"
+                },
+                {
+                    "text": "Nulla készlettel rendelkező mennyiségek törlése",
+                    "path": "raktarozas/nulla-keszlettel-rendelkezo-menyisegek-torlese.md"
                 },
                 {
                     "text": "Leltár",
@@ -309,6 +324,18 @@
                 {
                     "text": "Üzemi megbízások felhasználása",
                     "path": "gyartas/uzemi-megbizasok-felhasznalasa.md"
+                },
+                {
+                    "text": "Gyors visszajelentések",
+                    "path": "gyartas/gyors-visszajelentesek.md"
+                },
+                {
+                    "text": "Hiánylista",
+                    "path": "gyartas/hianylista.md"
+                },
+                {
+                    "text": "Szétszerelés",
+                    "path": "gyartas/szetszereles.md"
                 }
             ]
         }

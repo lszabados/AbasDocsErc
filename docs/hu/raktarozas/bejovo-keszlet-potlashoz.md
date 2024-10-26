@@ -10,9 +10,9 @@ A rendszer automatikusan látja a hiányt és látható a bejövő készleten az
 
 ## Érintett KIT-ek keresése
 
-Az ABAS rendszerben a Céges/ERC/GYÁRTÁS/Hiánylista infosystemet kell elindítani.
+Az ABAS rendszerben a [Céges/ERC/GYÁRTÁS/Hiánylista](../gyartas/hianylista.md) infosystemet kell elindítani.
 
-Az alábbi beállítások ellenek a bejövő készletből a kit feltöltéshez:
+Az alábbi beállítások kellenek a bejövő készletből a kit feltöltéshez:
 
 ![KIT pótlás](image-10.png)
 

@@ -53,3 +53,48 @@ Ezt követően újból szabad készletmozgással járó tevékenységeket végez
 ### Leltárzárás megtörtént
 
 A leltárzárással a leltárív archiválásra kerül, bármi okból megnyitni, nyomtatni, stb az archívumból lehet.
+
+## Leltárív szerkesztése
+
+### Leltárív sorainak feltöltése
+
+![alt text](image-2.png)
+
+A "Menny hozzáfűzése" gombbal egy szelekciós ablak jelenik meg.
+
+![alt text](image-3.png)
+
+Raktárhely és/vagy árucikk tartományok megadásával tudunk keresni.
+
+> Érdemes korábban eldönteni, mely raktárhelyek ekrülnek egy leltárívre és ezeket a raktárhelyeket leszűrni. Ha a raktárhelyek elnevezése szerencsés volt, akkor itt most tartomány szerűen lehet listázni.
+
+Az összes keresése gombbal megkapjuk az eredményt, amit az Átvétel gombal tudunk átadni a leltárívnek.
+
+A kapott leltárívet mentsük el.
+
+### Leltárív megnyitása szerkesztésre
+
+A leltárközpontban a létrehozott leltárívet a leltárív szerkesztése gombbal tudjuk megnyitni változtatás céljából.
+
+![alt text](image-4.png)
+
+A megnyitott leltárív viszont egy üres táblázatot mutat, nincsenek sorok.
+
+![alt text](image-5.png)
+
+A sorokat a "Leltár sorok betöltése" gombbal egy szelekcióval tudjuk betölteni.
+
+"Összes keresés" -> "Átvétel" után a sorok megjelennek.
+
+![alt text](image-6.png)
+
+### További sorok felvitele a leltárívre
+
+Ha megnyitunk szerkesztésre egy leltárívet és betöltjük a sorokat, nem működik a "Menny hozzáfűzése" nyomógomb, csak kézzel tudunk új sorokat felvinni.
+Ez viszont egy újabb raktárhely tartomány rögzítése esetén fáradságos munka lenne.
+
+A megoldás, hogy a leltárív megnyitás szerkesztésre művelet után ne töltsük be a sorokat. Üres táblázat esetén engedi a "Menny hozzáfűzése" gombbal újabb raktárhely tartomány kiválasztását és átvételét. Elmentjük. Újbóli megnyitás és sorok betöltése után már összefűzve látjuk az összes sort.
+
+### Sorok törlése a leltárívről
+
+Szerkesztésre megnyitott leltárívnél töltsük be a sorokat. Töröljük a törlendő sorokat, majd mentsünk.

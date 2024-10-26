@@ -16,4 +16,4 @@ Olyan nyomatot kapunk, ahol az árucikkek vonalkóddal is fel vannak tüntetve:
 
 ## Átraktározás
 
-A készletet a PDA segítségével az Átraktározás funkcióval tudjuk a helyére mozgatni.
+A készletet a PDA segítségével az [Átraktározás](atraktarozas.md) funkcióval tudjuk a helyére mozgatni.

@@ -111,25 +111,8 @@
                     "path": "raktarozas/index.md"
                 },
                 {
-                    "text": "Leltár",
-                    "items": [
-                        {
-                            "text": "Leltár",
-                            "path": "raktarozas/leltar/index.md"
-                        },
-                        {
-                            "text": "Leltárív",
-                            "path": "raktarozas/leltar/leltariv.md"
-                        },
-                        {
-                            "text": "Leltárközpont",
-                            "path": "raktarozas/leltar/leltarkozpont.md"
-                        },
-                        {
-                            "text": "Leltározás folyamata",
-                            "path": "raktarozas/leltar/leltarozas-folyamata.md"
-                        }
-                    ]
+                    "text": "Címkenyomtatás",
+                    "path": "raktarozas/labelprint.md"
                 },
                 {
                     "text": "Átraktározás",
@@ -174,6 +157,27 @@
                 {
                     "text": "Üzemi raktárhelyek",
                     "path": "raktarozas/uzemi-raktarhelyek.md"
+                },
+                {
+                    "text": "Leltár",
+                    "items": [
+                        {
+                            "text": "Leltár",
+                            "path": "raktarozas/leltar/index.md"
+                        },
+                        {
+                            "text": "Leltárív",
+                            "path": "raktarozas/leltar/leltariv.md"
+                        },
+                        {
+                            "text": "Leltárközpont",
+                            "path": "raktarozas/leltar/leltarkozpont.md"
+                        },
+                        {
+                            "text": "Leltározás folyamata",
+                            "path": "raktarozas/leltar/leltarozas-folyamata.md"
+                        }
+                    ]
                 }
             ]
         },

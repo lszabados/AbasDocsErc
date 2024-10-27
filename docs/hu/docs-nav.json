@@ -22,11 +22,8 @@
         },
         {
             "text": "BDE",
+            "path": "bde/index.md",
             "items": [
-                {
-                    "text": "BDE",
-                    "path": "bde/index.md"
-                },
                 {
                     "text": "BDE kiértékelések",
                     "path": "bde/bde-kiertekelesek.md"
@@ -43,10 +40,11 @@
         },
         {
             "text": "Beszerzés",
+            "path": "beszerzes/index.md",
             "items": [
                 {
-                    "text": "Beszerzés",
-                    "path": "beszerzes/index.md"
+                    "text": "Árak",
+                    "path": "beszerzes/arak/arak.md"
                 },
                 {
                     "text": "Ajánlatkérések",
@@ -88,11 +86,9 @@
         },
         {
             "text": "Értékesítés",
+            "path": "ertekesites/index.md",
             "items": [
-                {
-                    "text": "Értékesítés",
-                    "path": "ertekesites/index.md"
-                },
+                
                 {
                     "text": "Ajánlat",
                     "path": "ertekesites/ajanlat.md"
@@ -116,11 +112,8 @@
         },
         {
             "text": "Raktározás",
+            "path": "raktarozas/index.md",
             "items": [
-                {
-                    "text": "Raktározás",
-                    "path": "raktarozas/index.md"
-                },
                 {
                     "text": "Címkenyomtatás",
                     "path": "raktarozas/labelprint.md"
@@ -171,11 +164,8 @@
                 },
                 {
                     "text": "Leltár",
+                    "path": "raktarozas/leltar/index.md",
                     "items": [
-                        {
-                            "text": "Leltár",
-                            "path": "raktarozas/leltar/index.md"
-                        },
                         {
                             "text": "Leltárív",
                             "path": "raktarozas/leltar/leltariv.md"
@@ -194,11 +184,8 @@
         },
         {
             "text": "Tervezés",
+            "path": "tervezes/index.md",
             "items": [
-                {
-                    "text": "Tervezés",
-                    "path": "tervezes/index.md"
-                },
                 {
                     "text": "Ajánlatok ellenőrzése",
                     "path": "tervezes/ajanlatok-ellenorzese.md"
@@ -234,16 +221,17 @@
                 {
                     "text": "Összesített előkalkuláció",
                     "path": "tervezes/osszesitett-elokalkulacio.md"
+                },
+                {
+                    "text": "Felhasználások helyettesítése",
+                    "path": "tervezes/felhasznalasok-helyettesitese.md"
                 }
             ]
         },
         {
             "text": "Törzsadatok",
+             "path": "torzsadatok/index.md",
             "items": [
-                {
-                    "text": "Törzsadatok",
-                    "path": "torzsadatok/index.md"
-                },
                 {
                     "text": "Árak",
                     "path": "torzsadatok/arak.md"
@@ -284,11 +272,8 @@
         },
         {
             "text": "Gyártás",
+            "path": "gyartas/index.md",
             "items": [
-                {
-                    "text": "Gyártás",
-                    "path": "gyartas/index.md"
-                },
                 {
                     "text": "Gyártási központ",
                     "path": "gyartas/gyartasi-kozpont.md"

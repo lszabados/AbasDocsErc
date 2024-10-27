@@ -104,9 +104,10 @@
                 {
                     "text": "Értékesítési ügyletek",
                     "path": "ertekesites/ertekesitesi-ugyletek.md"
-                },{
-                    "text": "Szállítólevél",
-                    "path": "ertekesites/szallitolevel.md"
+                },
+                {
+                    "text": "Számla",
+                    "path": "ertekesites/szamla.md"
                 }
             ]
         },
@@ -160,7 +161,7 @@
                 },
                 {
                     "text": "Nulla készlettel rendelkező mennyiségek törlése",
-                    "path": "raktarozas/nulla-keszlettel-rendelkezo-menyisegek-torlese.md"
+                    "path": "raktarozas/nulla-keszlettel-rendelkezo-mennyisegek-torlese.md"
                 },
                 {
                     "text": "Leltár",
@@ -297,10 +298,6 @@
                 {
                     "text": "Papírok nyomtatása",
                     "path": "gyartas/papirok-nyomtatasa.md"
-                },
-                {
-                    "text": "Üzemi megbízások felhasználása",
-                    "path": "gyartas/uzemi-megbizasok-felhasznalasa.md"
                 },
                 {
                     "text": "Gyors visszajelentések",

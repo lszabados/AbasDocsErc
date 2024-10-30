@@ -26,7 +26,7 @@ Lehet további füleket definiálni. Ezek rendszerint egy adminisztrátor által
 
 Lényege, hogy a standard menüben az összes lehetőség ott van, ami a vállalatnak elérhető, de néha nehézkes és időtrabló a menükben a funkciót keresni, ezért a vállalat ebből a részlegek részére kiválasztja a legfontosabb menüpontokat.
 
-Pl.: Beszerzési osztálynak a beszerzések, diszpó, árucikk, árak-rabbatok, stb menüpontokat gyűjtik ki, amiket leggyakrabban használnak. Ezt a menü struktúrát a felhasználóhoz lehet rendelni, így pl. a beszerzési osztálynak más menü strutúrája van, mint a gyártásnak.
+Pl.: Beszerzési osztálynak a beszerzések, diszpó, árucikk, árak-rabattok, stb menüpontokat gyűjtik ki, amiket leggyakrabban használnak. Ezt a menü struktúrát a felhasználóhoz lehet rendelni, így pl. a beszerzési osztálynak más menü strutúrája van, mint a gyártásnak.
 
 Közös jellemzője ezeknek a füleknek, hogy a felhasználók nem tudják módosítani, csak az arra jogosult admin.
 

@@ -13,11 +13,11 @@ Ez egy direkt ár, rendszerint nem használjuk, ezért értéke 0.
 
 A beszerzésnél is van direkt ár, a beszerzés fülön az árucikk maskon belül. Minden szállítóhoz tudunk árat devizanemet, mennyiségi egységet és érvényességi határidőt beállítani.
 
-## Árak rabbatok adatbázis
+## Árak rabattok adatbázis
 
-Az Árak rabbatok egy külön adatbázis, ahol nem egy árat rendelek egy adott termékhez.
+Az Árak rabattok egy külön adatbázis, ahol nem egy árat rendelek egy adott termékhez.
 
-![ArakRabbatok](image.png)
+![Arakrabattok](image.png)
 
 Először is meg kell érteni, hogy az adatbázisból hogyan választ az ABAS.
 
@@ -38,11 +38,11 @@ Az árucikk maskon több helyen is szerepel: van egy értékesítési árcsoport
 ![](image-1.png)
 ![Alt text](image-2.png)
 
-Az árak keresésekor azt az árat fogja kiválasztani, ahol az ÁrakRabbatok maskon az árcsoport mező üres, vagy ugyan ez van beírva.
+Az árak keresésekor azt az árat fogja kiválasztani, ahol az Árakrabattok maskon az árcsoport mező üres, vagy ugyan ez van beírva.
 
 ### Vevő/szállító árcsoport
 
-Az árak rabbatok maskon, ha a típus beszerzési ár, akkor szállító, ha értékesítési ár akkor a vevő adatbázisban keres.
+Az árak rabattok maskon, ha a típus beszerzési ár, akkor szállító, ha értékesítési ár akkor a vevő adatbázisban keres.
 Értékesítési ügyleteknél a bizonylat, pl megbízás tartalmazza a vevő adatait. Ugyan így egy megrendelésnél a szállítót választjuk ki elsőnek.
 
 Az ABAS ennek függvényében tudja a típust (értékesítés vagy beszerzés) és tudja a Vevó/Szállító kódját.
@@ -52,7 +52,7 @@ A vevő és szállító askon a Számla fülön van Árcsoport mező.
 
 Itt is rendszerint a vevő keresőszavát adjuk meg, de nem kötelező, bármi megadható.
 
-Azok az árak felelnek meg egy vevőnek/szállítónak, ahol az ÁrakRabbatoknál a Vevő/Szállító Árcsoport mező üres vagy az van beírva mint a Vevő/Szállító maskon.
+Azok az árak felelnek meg egy vevőnek/szállítónak, ahol az Árakrabattoknál a Vevő/Szállító Árcsoport mező üres vagy az van beírva mint a Vevő/Szállító maskon.
 
 ## Kiválasztás
 
@@ -60,7 +60,7 @@ Az alábbi ábra szemlélteti az összefügéseket.
 
 ![Alt text](image-4.png)
 
-> Fontos, hogy ha az árak rabbatok táblában valamelyik érték nincs kitöltve, akkor az mindre vonatkozik. Ha nem töltöm ki az idő intervallumot, a vevő és az árucikk csoportot sem, akkor az adott ár minden vevő minden termékre igaz mindenkor. Szóval ha lehet ilyet ne mentsünk el!
+> Fontos, hogy ha az árak rabattok táblában valamelyik érték nincs kitöltve, akkor az mindre vonatkozik. Ha nem töltöm ki az idő intervallumot, a vevő és az árucikk csoportot sem, akkor az adott ár minden vevő minden termékre igaz mindenkor. Szóval ha lehet ilyet ne mentsünk el!
 
 ## Árak meghatározása
 
@@ -128,7 +128,7 @@ Ez a fenti példa kiegészítése, ahol max 100 db-ban korlátoztuk a mennyiség
 
 > Fontos, hogy az ár minden esetben egységárat jelent, nem az adott mennyiségnek az árát!
 
-## Árak rabbatok karbantartás Infosystem
+## Árak rabattok karbantartás Infosystem
 
 Ha szeretnénk meglévő árakat módosítani, akkor ez az infosystem a segítségünk.
 Fontos megjegyezni, hogy az Infosystem csak az adott pillanatban érvényes árakat módosítja. Vagyis csak a jelenleg is érvényben lévő árakat. Ha vettünk fel még vagy már nem érvényes árat, azt itt nem fogjuk módosítani. Erre amúgy rendszerint nincs is sükség.
@@ -151,16 +151,16 @@ Látjuk, hogy az első tétel 2007.01.01 -től érvényes és 2023.12.31 ig.
 Az elsőoszlopban kijelölöm a módosítani kívánt tételt. A hozzá tartozó lépcsős árakat is kijelöli automatikusan.
 Több tételet vagy akár az összeset is kijelölhetjük.
 
-Ha azt kaptuk, hogy az árak nem változtak, csak a 2023.12.31 2024.12.31 lett, akkor az "Új érvényesség -ig" mezőben átírom a dátumokat és az "Árak/Rabbatok felülírása" gombbal elmentem a változtatást. 
+Ha azt kaptuk, hogy az árak nem változtak, csak a 2023.12.31 2024.12.31 lett, akkor az "Új érvényesség -ig" mezőben átírom a dátumokat és az "Árak/rabattok felülírása" gombbal elmentem a változtatást. 
 
 Ha azt mondják, hogy 2023.10.01 től változott az ár 0,0410 ről 0,051-re, és ez az ár 2024.12.31-ig érvényes, akkor viszont ezek a lépések:
 Új érvényesség től: 2023.10.01
 Új érvényeség -ig : 2024.12.31
 Új lápcsős ár: 0,051
 
-Menteni az "Árak/rabbatok lezárása és újonnan felvitele" gombbal!!!
+Menteni az "Árak/rabattok lezárása és újonnan felvitele" gombbal!!!
 
-Természetesen a fenti műveleteket az árak/rabbatok maskon is el lehet végezni, de itt gyorsabb és egyszerűbb.
+Természetesen a fenti műveleteket az árak/rabattok maskon is el lehet végezni, de itt gyorsabb és egyszerűbb.
 
 
 

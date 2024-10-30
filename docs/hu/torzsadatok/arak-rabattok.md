@@ -1,8 +1,8 @@
-# Árak rabbatok
+# Árak rabattok
 
-Az árak-rabbatok egy külön adatbázis az ABAS-on belül, ami árlisták karbantartását tesziu lhetővé.
+Az árak-rabattok egy külön adatbázis az ABAS-on belül, ami árlisták karbantartását tesziu lhetővé.
 
-Ehhez az ABAS biztosít egy Árak Rabbatok adatbázist és infosystemeket a karbantartáshoz.
+Ehhez az ABAS biztosít egy Árak rabattok adatbázist és infosystemeket a karbantartáshoz.
 
 ## Vevő/szállító árcsoport
 
@@ -30,7 +30,7 @@ Az egészet megfejeli, hogy amennyiben vannak külső raktárcsoportok, ott kül
 
 > alapesetben raktárcsoporton belül egyforma árcsoportot szokás beállítani, rika, ha ettől el kell térni.
 
-## Árak rabbatok fő oldal
+## Árak rabattok fő oldal
 
 ![alt text](image-3.png)
 
@@ -68,18 +68,18 @@ Ha másik ár is van, de ott a dátum is ki van töltve és a dátumok között 
 
 > Rossz példa: Ha felveszünk egy árat és nem adunk meg sem Cikk árcsoportot és Vevő/Szállítóárcsoportot és dátumot sem, akkor az abas elfogadja. Ilyen beállítással viszont mindenre amire nincs ár felvéve, vagy valami miatt nem érvényes, ezt az árat adja az ABAS, ami természetesen hibás működéshez vezet.
 
-### Árak rabbatok a cikktörzsben
+### Árak rabattok a cikktörzsben
 
 E.R.C. fejleszés az árucikk mask menüsorában A "New Price" gomb.
 
 ![alt text](image-4.png)
 
-A gombra kattintva egy új Árak/rabbatok maskot nyit a rendszer beszerzési árlistának.
+A gombra kattintva egy új Árak/rabattok maskot nyit a rendszer beszerzési árlistának.
 Árucik árcsoportot és a belső megnevezést kitölti, a többi adatot nem, hiszen ahhoz a vevőt/szállítót is ismerni kellene.
 
-### Árak rabbatok a megrendelésekben
+### Árak rabattok a megrendelésekben
 
-Amikor a beszerzési megrendelést készítünk, az ABAS a meglévő árlistából kikeresi a mennyiséghez érvényes árat. Ha ez nem jó és átírjuk, akkor automatikusan az aktuális árak/rabbatok mask-ot feldobja a rendszer, hogy javíthassuk az új érvényes árra, vagy észrevegyük, hogy az ár eltér a hivatalostól.
+Amikor a beszerzési megrendelést készítünk, az ABAS a meglévő árlistából kikeresi a mennyiséghez érvényes árat. Ha ez nem jó és átírjuk, akkor automatikusan az aktuális árak/rabattok mask-ot feldobja a rendszer, hogy javíthassuk az új érvényes árra, vagy észrevegyük, hogy az ár eltér a hivatalostól.
 
 Ha nem volt ár, akkor egy új maskot dob fel a rendszer, hogy elmenthessük a megadott árat az árlistába.
 
@@ -87,13 +87,13 @@ Ha nem volt ár, akkor egy új maskot dob fel a rendszer, hogy elmenthessük a m
 
 ![alt text](image-5.png)
 
-### Árak rabbatok a megbízásokban
+### Árak rabattok a megbízásokban
 
-Az eladáskor ugyan az a szisztéma, mint a beszerzéskor, ha a hivatalos árlistától eltér az ár, akkor automatikusan feldobja a rendszer az Árak /Rabbatok maskot.
+Az eladáskor ugyan az a szisztéma, mint a beszerzéskor, ha a hivatalos árlistától eltér az ár, akkor automatikusan feldobja a rendszer az Árak /rabattok maskot.
 
-## Árak/Rabbatok rendszerben az Árak frissítése
+## Árak/rabattok rendszerben az Árak frissítése
 
-A törzsadatok/Árak-Rabbatok alatt a "Ár és rabatt karbantartás" infosystemet kell elindítani.
+A törzsadatok/Árak-rabattok alatt a "Ár és rabatt karbantartás" infosystemet kell elindítani.
 
 Az infoszsystemmel egyszrre több sor árat tudunk javítani. Pl. Szűrönk egy Vevő/Szállító árcsoportra és a szállítótól kapott árlista alapján javíthatjuk az árakat.
 

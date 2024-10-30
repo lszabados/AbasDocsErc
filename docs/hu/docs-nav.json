@@ -234,6 +234,10 @@
                     "path": "torzsadatok/arak.md"
                 },
                 {
+                    "text": "Árak-rabbatok",
+                    "path": "torzsadatok/arak-rabatok.md"
+                },
+                {
                     "text": "Bank-bankkapcsolat",
                     "path": "torzsadatok/bank-bankkapcsolat.md"
                 },
@@ -252,6 +256,14 @@
                 {
                     "text": "Műveletek",
                     "path": "torzsadatok/muveletek.md"
+                },
+                {
+                    "text": "Költséghely",
+                    "path": "torzsadatok/koltseghely.md"
+                },
+                {
+                    "text": "Kapacitások",
+                    "path": "torzsadatok/kapacitasok.md"
                 },
                 {
                     "text": "Naptár",

@@ -64,6 +64,45 @@ Sem a dátumot, sem az árcsoport mezőket nem kell kitölteni. Mi történi, ha
 
 Abban az esetben, ha több érvényes árlistánk is van, akkor a pontosabb vagy szűkebb értelmezés az elsődleges.
 pl. Van egy árunk ahol a dátum nincs kitöltve, vagyis az ár mindíg érvényes.
-Ha másik ár is van, de ott a dátum ois ki van töltve és a dátumok között vagyunk, akkor ez az ár lesz az érvényes.
+Ha másik ár is van, de ott a dátum is ki van töltve és a dátumok között vagyunk, akkor ez az ár lesz az érvényes.
+
+> Rossz példa: Ha felveszünk egy árat és nem adunk meg sem Cikk árcsoportot és Vevő/Szállítóárcsoportot és dátumot sem, akkor az abas elfogadja. Ilyen beállítással viszont mindenre amire nincs ár felvéve, vagy valami miatt nem érvényes, ezt az árat adja az ABAS, ami természetesen hibás működéshez vezet.
+
+### Árak rabbatok a cikktörzsben
+
+E.R.C. fejleszés az árucikk mask menüsorában A "New Price" gomb.
+
+![alt text](image-4.png)
+
+A gombra kattintva egy új Árak/rabbatok maskot nyit a rendszer beszerzési árlistának.
+Árucik árcsoportot és a belső megnevezést kitölti, a többi adatot nem, hiszen ahhoz a vevőt/szállítót is ismerni kellene.
+
+### Árak rabbatok a megrendelésekben
+
+Amikor a beszerzési megrendelést készítünk, az ABAS a meglévő árlistából kikeresi a mennyiséghez érvényes árat. Ha ez nem jó és átírjuk, akkor automatikusan az aktuális árak/rabbatok mask-ot feldobja a rendszer, hogy javíthassuk az új érvényes árra, vagy észrevegyük, hogy az ár eltér a hivatalostól.
+
+Ha nem volt ár, akkor egy új maskot dob fel a rendszer, hogy elmenthessük a megadott árat az árlistába.
+
+> Természetesen nem kötelező javítani, ez egy lehetőség, és könnyítés, hogy nem kell külön kikeresni.
+
+![alt text](image-5.png)
+
+### Árak rabbatok a megbízásokban
+
+Az eladáskor ugyan az a szisztéma, mint a beszerzéskor, ha a hivatalos árlistától eltér az ár, akkor automatikusan feldobja a rendszer az Árak /Rabbatok maskot.
+
+## Árak/Rabbatok rendszerben az Árak frissítése
+
+A törzsadatok/Árak-Rabbatok alatt a "Ár és rabatt karbantartás" infosystemet kell elindítani.
+
+Az infoszsystemmel egyszrre több sor árat tudunk javítani. Pl. Szűrönk egy Vevő/Szállító árcsoportra és a szállítótól kapott árlista alapján javíthatjuk az árakat.
+
+Két módszerrel lehet új árat megadni:
+
+1. A meglévő árlista felülírása. Ezt akkor javasoljuk használni, ha az ár nem változik, hanem az érvényességi időt tolják ki.
+
+2. Árak lezárása és új felvitele. Ezt akkor érdemes használni, ha valóban változott az ár. így visszamenőlegesen is megvan a hivatalos ár. 
+
+![alt text](image-6.png)
 
 

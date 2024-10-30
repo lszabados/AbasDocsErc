@@ -14,7 +14,7 @@ A helyettesítő karakterrel való kereséshez írja a név vagy a fogalom ismer
 |/abc/|Minden, a két perjel között megadott karakter (itt:: a, b, c)|
 |Hajlított ékezet (^)|Mező vége vagy mező eleje|
 |Aláhúzás ( _ )|Tagadja az utána bevitt feltételt|
-|Visszaperjel (\)|A karakter a visszaperjel után mint Escape karakter a keresőmintán belül nem kerül értelmezésre, hanem úgy kerül keresésre, ahogy be van írva|
+|Visszaperjel (\)|A karakter a visszaperjel után mint Escape karakter a keresőmintán belül nem kerül értelmezésre, hanem úgy kerül keresésre, ahogy be van írva
 
 
 |Jel|Magyarázat|

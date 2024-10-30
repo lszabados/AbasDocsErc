@@ -30,3 +30,33 @@ Itt fontos észre venni, hogy csak abban nem tárolódik a nullás készlet, ha 
 
 > A már nullás készlettel rendelkező tételek esetében hiába állítjuk át ezeket a kapcsolókat, nem törlődik a nullás készlet. Ha viszont töröljük, ismételeten nem jelenik meg újból.
 
+## Tömeges törlés indítása
+
+Az ABAS beépített programja nagyon jól működik, egyetlen probléma vele, hogy a raktárhelyeket egyesével kell törölni vele.
+
+A leltározás előtt érdemes lenne az öszzes KIT* , *INP és *PLATZ raktárhelyekre lefuttatni, mert ezeken a helyeken nagy számú árucikk megfordul ideiglenes jelleggel.
+
+Ez jelenlegi állapotban több mint 3100 raktárhelyet jelent. Nyilván ezt egyesével törölni nagyon fáradságos munka lenne.
+
+Készült egy kis infosystem, amivel lehet egy feltételnek megfelelő raktárhelyek csoportjára elindítani a törlést.
+
+A "céges/ERC/Raktár/Nulla mennyiségek törlése" infosystemet kell indítani.
+
+![alt text](image-22.png)
+
+Első lépésben meg kell határozni a törlendő raktárhelyeket. Ehhez két lehetőség van.
+
+1. Szűrési feltétel mezőt kitöltva, ahol a [Helyettesítő karakteres keresés](../egyeb/helyettesito-karakteres-kereses.md) módszerrel kell keresési feltételt beírni.
+
+A beírt feltételnek megfelelő raktárhelyeket a rendszer felveszi a listába, futtatáskor.
+
+2. Standard törlés mezőt bejelöljük
+
+A standard törlés az összes *INP, *PLATZ és KIT* raktárhelyeket felveszi a listába.
+
+
+A kiválasztott raktárhelyekre a készlet nullázás funkciót az Átadás gomb indításával kezdi a rendszer.
+Minden raktárhelyre külön meghívja a fenti infosystemet, ezért az esetleges hibák esetén sem áll le a program, mert nem egyetlen tranzakció történik.
+
+Az eredményről log készül, látjuk, hol vannak problémák.
+

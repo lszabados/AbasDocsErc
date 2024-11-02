@@ -40,3 +40,16 @@ A javaslatoknál beállíthatunk nagyobb mennyiséget is mint a javaslat, valami
 
 Minden esetben, amikor a dispo lefut, átnézi az igényeket és a megrendelt állományt és a raktárkészletet. Ezek összesítése után új javaslatot készít.
 
+### Külső raktárcsoportra megrendelések
+
+A Conto lavoro megrendelések a külső raktárcsoportokra érkeznek. Ezek a tételek nem számla relevánsak, ezért érdemes itt a megrendeléseknél ezt jelezni a rendszerbek.
+
+Ehhez a tételeken a Számla releváns jelölést ki kell kapcsolni
+
+![alt text](image-22.png)
+
+
+Másik lehetőség, egy belső fejlesztés, a már meglévő megbízások esetén lehet használni a "Nem számlareleváns" gombot a felső menüsorról. Ez az összes tétel esetén kikapcsolja a mezőt.
+
+![alt text](image-23.png)
+

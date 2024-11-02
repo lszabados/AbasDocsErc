@@ -23,4 +23,3 @@ A poz mezőt is töltsük, hogy a szállító tudjon a sorra hivatkozni.
 Szállítási határidőt is megadhatunk, valamit tételszövegnek megjegyzést.
 
 > amennyiben conto lavoró cikkeket kérünk, a sornagyítónál a számla releváns pipát vegyük ki!
-

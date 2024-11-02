@@ -28,6 +28,14 @@ A BDE -vel a műveletek kezdési és zárási időpontját is rögzíthetjük, �
 - [Művelet lezárása](muvelet-lezarasa.md)
 - [Művelet könyvelsée](muvelet-konyvelese.md)
 
+Gyártási folyamat része, a gyártás kapacitás karbantartása, mert a gyártási listában lévő dátumok, időzítések csak ennek helyes konfigurációjával érhető el.
+
+- [Kapacitások](../torzsadatok/kapacitasok.md)
+- [Műveletek](../torzsadatok/muveletek.md)
+- [Naptár](../torzsadatok/naptar.md)
+
+A naptárban folyamatosan jelezni kellene a rendszerrel a kapacitás csökkenéseket (szabadság vagy gép meghibásodás miatt)
+
 További, gyártás során használatos műveletek és programok:
 
 - [Szétszerelés](szetszereles.md)

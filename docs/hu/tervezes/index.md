@@ -22,4 +22,4 @@ Ehhez az alábbi dokumentumok állnak rendelkezésre:
 
 - [Megbízási gyártási lista javítása](megbizasi-gyartasi-lista-javitasa.md)
 - [Gyártási javaslatok gyártási listájának frissítése](gyartasi-javaslatok-gyartasi-listajanak-frissitese.md)
-- [Felhasználások helyettesítése, cikk cseréje gyártási listán](cikk-csereje-gyartasi-listan.md.md)
+- [Felhasználások helyettesítése, cikk cseréje gyártási listán](cikk-csereje-gyartasi-listan.md)

@@ -8,6 +8,12 @@ Ezen szerepelnek auz üzemi gyártási lista műveletei.
 
 A műveletet végző dolgozónak egy ilyen papírral kell a visszajelentő konzolhoz mennie.
 
+Másik lehetőség a Gyártási dokumentáció fedlap
+
+![alt text](image-36.png)
+
+Innen pedig a sorszámra van szükség, vagy a számra vagy a vonalkódra.
+
 ## Bejelentkezés
 
 A dolgozónak azonosítania kell magát. Ehhez a kapott vonalkódot kell beolvasnia.
@@ -29,7 +35,15 @@ Ez tartalmazza vonalkód formájában a visszajelentés papír.
 
 ![alt text](image-19.png)
 
-Ha beolvastuk a műveletet, a program egy összesítő oldalt jelenít meg, ahol leellenőrizhetjük, hogy jó műveletet választottunk e ki.
+Ezt követően ha a gyártási dokumentáció sorszámát olvassuk/írjuk be, akkor listát kapunk az elérhető műveletekről:
+
+![alt text](image-37.png)
+
+A listából ki tudjuk választani a megfelelő műveletet.
+
+> Ha a művelet listáról közvetlenül a művelet kódját írjuk be, akkor ez a lépés kimarad!
+
+Ha beolvastuk/kiválasztjuk a műveletet, a program egy összesítő oldalt jelenít meg, ahol leellenőrizhetjük, hogy jó műveletet választottunk e ki.
 
 ![alt text](image-20.png)
 

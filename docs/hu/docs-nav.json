@@ -160,6 +160,14 @@
                     "path": "raktarozas/nulla-keszlettel-rendelkezo-mennyisegek-torlese.md"
                 },
                 {
+                    "text": "Árucikk mozgás kérelem űrlap",
+                    "path": "raktarozas/arucikk-mozgas-kerelem.md"
+                },
+                {
+                    "text": "Revízióváltás raktárigény Infosystem",
+                    "path": "raktarozas/raktarmozgas-igenyles-infosystem.md"
+                },
+                {
                     "text": "Leltár",
                     "path": "raktarozas/leltar/index.md",
                     "items": [
@@ -218,6 +226,10 @@
                 {
                     "text": "Összesített előkalkuláció",
                     "path": "tervezes/osszesitett-elokalkulacio.md"
+                },
+                {
+                    "text": "Revízió váltás",
+                    "path": "tervezes/revizio-valtas.md"
                 }
             ]
         },
@@ -318,6 +330,10 @@
                 {
                     "text": "Szétszerelés",
                     "path": "gyartas/szetszereles.md"
+                },
+                {
+                    "text": "Részlegváltás",
+                    "path": "gyartas/reszlegvaltas.md"
                 }
             ]
         }

@@ -63,7 +63,7 @@ A visszaszállításkor is egy szállítólevél kerül kiállításra. A vissza
 
 Mivel a szállítólevél kiállítása irodai munkatársak végzik, ezért szükséges konkrétan meghatározni, milyen kimenő raktárhelyet kell a szállítólevélen rögzítenie.
 
-A visszaszállítás azon a ponton történk, ahol az áruátvétel. Ezek az INP raktárhelyek. Ezért a visszaszállító levél elkészítése előtt a terméknek megfelelő INP raktárhelyre kell a visszaszállítandó árut a polcról vagy egyéb helyről átraktározni.
+A visszaszállítás azon a ponton történk, ahol az áruátvétel. Standardan arról a raktárhelyről akarja az ABAS visszaszállítani az árut, ahonnan bejött, mert az az alap feltételezés, hogy a szállító autójával történik a visszaszállítás. Ezek az INP raktárhelyek. Ezért a visszaszállító levél elkészítése előtt a terméknek megfelelő INP raktárhelyre kell a visszaszállítandó árut a polcról vagy egyéb helyről, pl üzem átraktározni.
 
 Ehhez, ha a visszaszállítást nem a raktár kezdeményezte, akkor ki kell állítani egy [Árucikk mozgási kérelmet](../raktarozas/arucikk-mozgas-kerelem.md).
 

@@ -57,7 +57,17 @@ Szóval a visszaszállító-levél könyvelése után célszerű dispo futtatás
 
 > Itt egy nagy hibalehetőség, amit a vevővel mindenképpen tisztázni kell. Az előző megrendelés lezárult, a visszaszállítás nem jelenti, hogy automatikusan küldjenek helyette árucikket, csak akkor, ha újból megrendeljük. Ezt a megrendelési javaslatok elfogadásával könnyedén  megtehetjük. Ha nem így állapodunk meg, előfordulhat, hogy a szállító újból küldi a visszaszállított cikkeket és küldi mégegyszer az új megrendelés miatt.
 
-# Visszaszállítási központ
+## Visszaszállítás előfeltétele
+
+A visszaszállításkor is egy szállítólevél kerül kiállításra. A visszaszállító levél a készletet csökkenti, vagyis az egyes táblázati sorokban minden visszaszállítandó tételnél meg kell adni azt a raktárhelyet, ahonnan a készlet csökkeni fog.
+
+Mivel a szállítólevél kiállítása irodai munkatársak végzik, ezért szükséges konkrétan meghatározni, milyen kimenő raktárhelyet kell a szállítólevélen rögzítenie.
+
+A visszaszállítás azon a ponton történk, ahol az áruátvétel. Ezek az INP raktárhelyek. Ezért a visszaszállító levél elkészítése előtt a terméknek megfelelő INP raktárhelyre kell a visszaszállítandó árut a polcról vagy egyéb helyről átraktározni.
+
+Ehhez, ha a visszaszállítást nem a raktár kezdeményezte, akkor ki kell állítani egy [Árucikk mozgási kérelmet](../raktarozas/arucikk-mozgas-kerelem.md).
+
+## Visszaszállítási központ
 
 A visszaszállítást nem minden esetben a beszerzési osztály kezdemémyezi, és jelneleg többnyire az iroda készíti a szállítóleveleket.
 Emiatt fontos, hogy az iroda megtudja, melyik szállítólevél tételeit küldjük vissza.

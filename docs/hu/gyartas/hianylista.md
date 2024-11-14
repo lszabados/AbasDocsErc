@@ -86,7 +86,7 @@ Ez fontos, hogy amikor beérkezik áru, azonnal lássuk, tudunk e abból hiányz
 
 lásd: [Bejövő készlet pótláshoz](../raktarozas/bejovo-keszlet-potlashoz.md)
 
-## Kászletellenőrzés
+## Készletellenőrzés
 
 Ha kiványcsiak vagyunk egy adott sor készleteire, akkor a soron állva és a táblázati rész feletti gombsoron a készletellenőrzés gombra kattintva megnyílik a Készlet-info, az árucikkre leszűrve.
 Ezzel pontosabb képet kaphatunk a készletről.

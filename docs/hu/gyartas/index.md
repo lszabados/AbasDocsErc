@@ -39,6 +39,7 @@ A naptárban folyamatosan jelezni kellene a rendszerrel a kapacitás csökkenés
 További, gyártás során használatos műveletek és programok:
 
 - [Szétszerelés](szetszereles.md)
+. [Elindított gyártás törlése](elinditott-gyartas-torlese.md)
 - [Megbízások készültsége](megbizasok-keszultsege.md)
 - [Gyártási központ](gyartasi-kozpont.md)
 - [Gyors visszajelentések](gyors-visszajelentesek.md)

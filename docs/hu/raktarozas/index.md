@@ -17,6 +17,8 @@ A raktározás az alábbi leírásokat foglalja össze
 - [Nullás készlettel rendelkező mennyiségek törlése](nulla-keszlettel-rendelkezo-mennyisegek-torlese.md)
 - [Árucikk mozgás kérelem űrlap](arucikk-mozgas-kerelem.md)
 - [Revízióváltás anyagváltozás elemzése infosystem](raktarmozgas-igenyles-infosystem.md)
+- [Üzemi raktárhelyek](uzemi-raktarhelyek.md)
+- [Üzemi raktárhely feltöltés](uzem-raktarhely-feltoltes.md)
 
 A [Beszerzési szállítólevelek](../beszerzes/szallitolevel.md) rögzítése is a Raktár feladata, de ezen funkciók leírásai a [Beszerzés](../beszerzes/index.md) részen található.
 

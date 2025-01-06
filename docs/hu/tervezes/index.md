@@ -14,6 +14,12 @@ A technikus az ellenőrzött sorokat, vagy ha egyben kész az egész árajánlat
 
 Ezt végezheti több ütemben is. Ennek elírása a [Megbízás](../ertekesites/megbizas.md) leírásban.
 
+Gyártási listákon a Tervezéas művelet a kötős papír elkészítését és/vagy ellenőrzését jelenti. A kötős papírok excelben és ABAS rendszerben is elkészíthetőek, de célszerűen érdemes az ABAS rendszerre áttérni.
+
+Az ABAS rendszerben a kötős papír elkészítéséhez használják ezt a leírást. [Kötős papír](kotos-papir.md)
+
+Amennyiben lehetséges abban az esetben, amíg a kötős papírok még nem ABAS rendszerben vannak, az átadás előtt elkészíteni a kötős papírt az ABAS rendszerben és átadni a sommázás eredményeket a gyártási listákra, mert jelenleg nagy eltérés mutatkozik az Excel kötős papír és a gyártási lista tartalma között.
+
 ## Gyártás alatt gyártási lista módosítás
 
 Gyártás közben felmerülhetnek problémák, amik érinthetik a gyártási listát is. A gyártási lista javításával viszont az üzemi gyártási listák már nem módosulnak, azokat kézzel vagy segédprogrammal kell külön javítani.

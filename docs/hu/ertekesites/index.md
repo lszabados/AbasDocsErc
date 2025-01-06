@@ -24,7 +24,6 @@ A további lépéseket más részlegek végzik
 - [Raktár](../raktarozas/index.md) felel a gyártáshoz az anyagmozgatásért
 - [Gyártás](../gyartas/index.md) felel a gyártás elindításáért és a teljes gyártási folyamatért
 
-
 ## Értékesítési szállítólevél készítése
 
 A folyamat a [Értékesítési Szállítólevél](szallitolevel.md) leírásban olvasható.

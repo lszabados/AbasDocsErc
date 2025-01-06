@@ -139,11 +139,13 @@ Ha sikeres, akkor az üzemi megbízás oszlopban megjelenik az üzemi megbízás
 
 Ez a rész majdnem azonos a gyártási javaslatokéval, csak a különbségeket emeljük itt ki.
 
-![alt text](image-34.png)
+![alt text](image-62.png)
 
 A sorok eleján láthatjuk a törlésvédelem jelzését. Ez ha be van kapcsolva, az üzemi megbízás akkor sem archiválódik, ha a mennyiségi visszajelentés teljes. Ez azért kell, mert manuális anyagfelhasználás esetén akkor is archiválódna az üzemi megbízás, ha az anyagot még nem vételeztük ki. Archiválás után viszont erre már nincs mód.
 
 Üzemi megbízás oszlop sárga, és a státusz sor sem üres, ha az üzemi megbízás teljesült. Egyéb esetben fehér.
+
+Kit oszlopban az üzemi megbízáshoz rendelt KIT üzemi raktárhelyet látjuk. Az alkatrész típusú alapanyagokat itt keresi a rendszer felhasználáskor.
 
 ### Üzemi megbízások kibontása
 

@@ -24,6 +24,9 @@ A dokumentáció nem törekszik teljességre és nem az ABAS leírást helyettes
 - [Tervezés](tervezes/index.md)
 - [Gyártás](gyartas/index.md)
 
+## Egyéb leírások
+
+- [Szállítók mennyiségi forgalmának listázása excelbe](egyeb/szallitok-mennyisegi-forgalma.md)
 
 
 

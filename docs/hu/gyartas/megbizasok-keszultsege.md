@@ -2,12 +2,20 @@
 
 ![alt text](image-23.png)
 
-Az infosystemmel a nem lezárt üzemi megbízásokat láthatjuk, egy megbízás egy sor.
+Az infosystemmel a nem lezárt, vagy lezárt de törlésvédelemmel ellátott üzemi megbízásokat láthatjuk, egy megbízás egy sor.
 
 Szűrni lehet egyetlen megbízásra, ekkor egy sort kapunk
 Felhasználásra, ekkor egy megbízáshoz tartozó összes kész és félkésztermék nem archivált üzemi megbízását látjuk.
 
 Árucikkre is szűrhetünk, de itt az üzemi megbízáson szereplő árucikk értendő, vagyis kész ill. félkésztermék adható meg.
+
+A SZŰRÉS mező egy általánosszűrő. Az ide beírt szöveget keresi az üzemi megbízás, árucikk keresőszava, felhasználás és ügyfél azonosító értékekben.
+Minden sor megjelenik, ahol találat van bármelyik oszlopban.
+
+> Ez kíválóan alkalmas pl, ha tudjuk a vevő megrendelés számát : 14071147780
+> beírjuk a 7780 értéket és utána futtatjuk:
+
+![alt text](image-34.png)
 
 ## Csak nyitottakat mutassa
 
@@ -16,6 +24,13 @@ A mező bekapcsolásával a nem lezárt üzemi megbízásokat listázza csak a r
 ## Csak a lezártakat mutassa
 
 Ebben az esetben a lezárt, már gyártás alatt nem lévő üzemi megbízásokat listázzuk. Itt a törlésvédelemmel ellátott kész üzemi megbízásokat látjuk.
+
+## Részletekkel
+
+Alapesetben be van jelölve. Ha kivesszük, nem mutatja meg az egyes műveletek készültségét. A futás gyorsabb.
+Ezt akkor érdemes választani, ha nem szűrönk semmire, ekkor gyorsabban kapunk eredményt. Ha ebből kiválasztjuk pl a felhasználást és azt belevesszük a szűrésbe de azt már részletekkel, akkor időt spórolunk.
+
+Ugyan így ha nem kérjük a részleteket és a szűrés mezőt használva egy vevői rendelésszámra keresünk, a megfelelő soron állva kinyithatjuk a gyártásközpontot.
 
 ## Eredménysorok oszlopai
 

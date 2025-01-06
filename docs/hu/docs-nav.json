@@ -43,20 +43,12 @@
             "path": "beszerzes/index.md",
             "items": [
                 {
-                    "text": "Árak",
-                    "path": "beszerzes/arak/arak.md"
+                    "text": "Beszerzési javaslatok",
+                    "path": "beszerzes/beszerzesi-javaslatok.md"
                 },
                 {
                     "text": "Ajánlatkérések",
                     "path": "beszerzes/ajanlatkeresek.md"
-                },
-                {
-                    "text": "Árucikk hibás árlista keresése",
-                    "path": "beszerzes/arucikk-hibas-arlista-keresese.md"
-                },
-                {
-                    "text": "Beszerzési javaslatok",
-                    "path": "beszerzes/beszerzesi-javaslatok.md"
                 },
                 {
                     "text": "Megrendelés",
@@ -73,6 +65,14 @@
                 {
                     "text": "Visszaszállítás",
                     "path": "beszerzes/visszaszallitas.md"
+                },
+                {
+                    "text": "Árak",
+                    "path": "beszerzes/arak/arak.md"
+                },
+                {
+                    "text": "Árucikk hibás árlista keresése",
+                    "path": "beszerzes/arucikk-hibas-arlista-keresese.md"
                 },
                 {
                     "text": "Mennyiségi újraértékelés",
@@ -156,6 +156,10 @@
                     "path": "raktarozas/uzemi-raktarhelyek.md"
                 },
                 {
+                    "text": "Üzemi raktárhelyek feltöltése",
+                    "path": "raktarozas/uzem-raktarhely-feltoltes.md"
+                },
+                {
                     "text": "Nulla készlettel rendelkező mennyiségek törlése",
                     "path": "raktarozas/nulla-keszlettel-rendelkezo-mennyisegek-torlese.md"
                 },
@@ -166,6 +170,10 @@
                 {
                     "text": "Revízióváltás raktárigény Infosystem",
                     "path": "raktarozas/raktarmozgas-igenyles-infosystem.md"
+                },
+                {
+                    "text": "Árucikk és Polc címke nyomtatás Infosystem",
+                    "path": "raktarozas/labelprint.md"
                 },
                 {
                     "text": "Leltár",
@@ -210,6 +218,10 @@
                 {
                     "text": "Gyártási lista",
                     "path": "tervezes/gyartasi-lista.md"
+                },
+                {
+                    "text": "Kötős papír",
+                    "path": "tervezes/kotos-papir.md"
                 },
                 {
                     "text": "Késztermék másolása",
@@ -332,8 +344,16 @@
                     "path": "gyartas/szetszereles.md"
                 },
                 {
+                    "text": "Selejtezés",
+                    "path": "gyartas/selejtezes.md"
+                },
+                {
                     "text": "Részlegváltás",
                     "path": "gyartas/reszlegvaltas.md"
+                },
+                {
+                    "text": "Elindított gyártás törlése",
+                    "path": "gyartas/elinditott-gyartas-torlese.md"
                 }
             ]
         }

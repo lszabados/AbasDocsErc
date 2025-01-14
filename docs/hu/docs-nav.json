@@ -312,6 +312,10 @@
                     "path": "gyartas/gyartasi-javaslatok-elfogadas.md"
                 },
                 {
+                    "text": "Gyártási állapot",
+                    "path": "gyartas/gyartasi-allapot.md"
+                },
+                {
                     "text": "Megbízások készültsége",
                     "path": "gyartas/megbizasok-keszultsege.md"
                 },

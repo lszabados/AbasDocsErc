@@ -40,6 +40,7 @@ További, gyártás során használatos műveletek és programok:
 
 - [Szétszerelés](szetszereles.md)
 . [Elindított gyártás törlése](elinditott-gyartas-torlese.md)
+- [Gyártási állapot](gyartasi-allapot.md)
 - [Megbízások készültsége](megbizasok-keszultsege.md)
 - [Gyártási központ](gyartasi-kozpont.md)
 - [Gyors visszajelentések](gyors-visszajelentesek.md)

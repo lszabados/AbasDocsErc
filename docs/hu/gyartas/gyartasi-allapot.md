@@ -1,5 +1,7 @@
 # Gyártási állapot Infosystem
 
+Elérése: Céges/ERC/GYártás/Gyártási állapot
+
 Ez az infosystem viszonylag gyorsan lefut és egy áttekintést ad a gyártásban lévő üzemi megbízásokból.
 
 ![alt text](image-63.png)

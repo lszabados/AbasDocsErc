@@ -9,6 +9,7 @@ A raktározás az alábbi leírásokat foglalja össze
 - [Raktárcímkék nyomtatása](labelprint.md)
 - [Manuális raktárkönyvelés](manualis-raktarkonyveles.md)
 - [Átraktározás](atraktarozas.md)
+- [Átraktározási javaslatok](atraktarozasi-javaslatok.md)
 - [Készletkorrekció](keszletkorrekcio.md)
 - [Bejövő készlet pótlásokhoz](bejovo-keszlet-potlashoz.md)
 - [Bejövő készlet kiadási helyre mozgatása](bejovo-keszlet-helyre-rakasa.md)

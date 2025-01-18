@@ -40,9 +40,15 @@ Előre definiált sablon lekérdezések kiválasztása után leszűrt sorokat je
 
 A 2 féle szelekciót tovább szűkíthetjük a jobb oldali lehetőségekkel
 
-![alt text](image-27.png)
+![alt text](image-69.png)
 
 A legfontosabb ezek közül a Csak üzemi megbízások és a Csak gyártási javaslatok. Vagy egyik sincs kitöltve és akkor nem szűkítjük a találatokat, vagy egyik ki van választva és az annak megfelelő sorok jelennek meg.
+
+Vevő megrendelésszám mezőbe a vevő megrendelésszámát vagy annak egy részét írva tudunk szűrni.
+
+> A gyártási javaslatoknak standard ABAS-ban nem része a vevő megrendelésszáma. Megbízás rögzítése után a dispo lefutását követően keletkeznek a gyártási javaslatok. A rendszer minden óra 5 perckor azoknak a gyártási javaslatoknak amelyeknek van felhasználási száma, vagyis vevői megrendelés alapján keletkezett, azoknál a megbízásról a javaslatra másolódik a vevő megrendelésszáma. Ez jelenítődik meg a gyártási központban. 
+
+> Ha a megbízáson módosítjuk, javítjuk a megrendelésszámot, a javaslaton nem fog módosulni, kézzel kell javítani!
 
 Csak kritikus javaslatok:
 Egy ügylet akkor kritikus, ha a legkorábbi befejezési idő egybeesik a tény befejezési idővel vagy később van, ill. a kezdési idő a múltban van vagy a napi dátummal rendelkezik. Így a megbízás nem intézhető el. Egy ilyen bevitelt a diszpozíció a megnevezett mezőkben hajt végre.
@@ -53,7 +59,7 @@ Tűrés: Tűrésként azt a differenciát írhatja be naptári napban, ami a bef
 
 A gyártási javaslatok megjelenítése esetén ehhez hasonló képet kapunk
 
-![alt text](image-28.png)
+![alt text](image-27.png)
 
 ![alt text](image-29.png)
 
@@ -62,6 +68,7 @@ A gyártási javaslatok megjelenítése esetén ehhez hasonló képet kapunk
 - Látszik az árucikk
 - Rendelkezésre álló komponensek raktáron, beszerzésen keresztül oszlopokban a legyártandó mennyiségeket látjuk (A leírás készítésekor, nem ismert miért egyikben vagy másikban van érték)
 - Felhasználás oszlopban a megbízás és sora van kódolva
+- Vevő megrendelésszám oszlopban, ha van felhasználás, akkor a megbízáson szereplő vevői megrendelésszám másolódik ide.
 - Összmennyiség szintén a legyártandó mennyiséget látjuk
 - Átadandó mennyiség oszoloban gyártási javaslatkor, ezt szeretnénk átadni gyártásra.
 - Kezdő határidő az a dátum, amikor az ABAS szerint legkésőbb kezdeni kell a gyártást

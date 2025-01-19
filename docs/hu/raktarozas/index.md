@@ -14,6 +14,7 @@ A raktározás az alábbi leírásokat foglalja össze
 - [Bejövő készlet pótlásokhoz](bejovo-keszlet-potlashoz.md)
 - [Bejövő készlet kiadási helyre mozgatása](bejovo-keszlet-helyre-rakasa.md)
 - [Kitszedés](kitszedes.md)
+- [Kitszedés Infosystem](kitszedes-infosystem.md)
 - [Leltározás](leltar/index.md)
 - [Nullás készlettel rendelkező mennyiségek törlése](nulla-keszlettel-rendelkezo-mennyisegek-torlese.md)
 - [Árucikk mozgás kérelem űrlap](arucikk-mozgas-kerelem.md)

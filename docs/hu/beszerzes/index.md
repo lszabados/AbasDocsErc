@@ -88,11 +88,17 @@ Az ABAS a megbízások alapján látja, hogy pl van 4000 csavar raktáron, de 5 
 
 Egy másik cikkből is van 2000 darab, de a jelenlegi összes megbízás teljesítése esetén sem csökken a készlet a minimális készlet alá, ezért nincs rá megrendelési javaslat.
 
-### "Alkatrész" típusú cikke
+### "Alkatrész" típusú cikkek
 
 Mivel az E.R.C. logika szerint azonnal megrendeljük, ezért semmi más dolgunk nincs, mint az ABAS javaslatoknál minden javaslatot azonnal el kell fogadni, vagyis megrendelést készítünk belőle.
 
 Fontos viszont, hogy az ABAS ennek ellenére mint szállítás határidőt, az eredetit tartaná meg, ezért ezt át kell állítanunk a legkorábbi dátumra.
+
+### Árucikk helyettesítése
+
+Kifutó vagy egyéb okból kicserélendő alapanyag esetén nem elegendő csak mást beszerezni, a gyártási listákon is cserélni kell az alapanyagot, figyelembe véve a megrendelő igényeit, a technikai követelményeket és a régi alapanyag készletét.
+
+Ennek ügymenete a [Árucikk helyettesítése](arucikk-helyettesitese.md) leírásban található.
 
 ### Beszerzési részleg feladata
 

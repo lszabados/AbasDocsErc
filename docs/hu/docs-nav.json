@@ -77,6 +77,10 @@
                 {
                     "text": "Mennyiségi újraértékelés",
                     "path": "beszerzes/mennyisegi-ujraertekeles.md"
+                },
+                {
+                    "text": "Árucikk helyettesítése",
+                    "path": "beszerzes/arucikk-helyettesitese.md"
                 }
             ]
         },

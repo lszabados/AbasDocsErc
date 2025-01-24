@@ -35,11 +35,15 @@ A kiválasztás után a kivét készlet sorban megjelenik azon a raktárhelyen e
 
 ## Bevét raktárhely
 
-Bevét raktárhelynek bármilyen érvényes raktárhely kódot elfogad a rendszer. Kiválasztani nem lehez, be kell olvasni!
+Bevét raktárhelynek bármilyen érvényes raktárhely kódot elfogad a rendszer, a KIT raktárhelyeket kivéve. Kiválasztani nem lehet, be kell olvasni! 
+
+> Azért kell beolvasni,mert a cél, hogy a polchoz menjünk és olvassuk le a helyet, hogy biztosan oda is tegyük az alapanyagot.
+
+> KIT raktárhelyekre csak kitszedés indokkal kellhet átraktározást indítani, a kitszedés viszont a gyártás folyamat része, ezért el kell indítani a kitnek megfelelő KITSZEDÉS műveletet. Ez a funkció biztosítja, hogy csak azt tudjuk és csak annyit oda raktározni, amennyit a rendszer szerint kell, valamint a művelet munkaidejét is így tudjuk mérni, ami az utókalkulációhoz szükésges.
 
 ## Mennyiség
 
-A mennyiségnél 0-nál nagyobb és maximum a kivét raktárhely mennyiisége adható meg.
+A mennyiségnél 0-nál nagyobb és maximum a kivét raktárhely mennyisége adható meg.
 
 ![Mentés előtt](image-8.png)
 

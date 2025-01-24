@@ -4,11 +4,17 @@ A kitszedés egy gyártási lista művelet, ezért a kitszedéshez mindenképpen
 
 > Lásd még : [Művelet megkezdése](../Gyartas/Muvelet-megkezdese)
 
+![alt text](image-56.png)
+
+Itt munkaszámnak az üzemi megbízás kitszedés művelete helyett a kit sorszámát is megadhatjuk. Ha a kit hozzá van rendelve egy üzemi megbízáshoz és azon van kitszedés művelet, akkor a rendszer automatikusan kiválasztja.
+
+> Kérem figyelembe venni, hogy a KIT raktárhely névvel történő művelet indítás lassabb művelet, mivel a kit kódja alapján meg kell keresnie a rendszernek a hozzá tartozó üzemi megbízást és azon a kitszedés műveletet. 
+
 ## Kitszedés elindítása
 
 A kitszedést a PDA-n futó Android alkalmazással tudjuk elvégezni. A kitszedés művelet elindítása utána a program a művelet visszaigazolás lapján áll. Amennyiben megvan a megfelelő Raktáros jogosultságunk a gombsorban megjelenik az "Átraktározás" lehetőség.
 
-![Visszajelentése-Átraktározás](image.png)
+![alt text](image-57.png)
 
 ## Kitszedés képernyő
 
@@ -20,12 +26,14 @@ A rendszer a műveletből és a hozzá tartozó üzemi megbízásból tudja mely
 
 Az alábbi képernyő minta szerint az árucikket kell megadni elsőre.
 
-![Árucikk megadása](image-1.png)
+![alt text](image-58.png)
 
 Az árucikket lehet választani a gombsor alatti listából, vagy vonalkóddal beolvasni a felső mezőbe.
 Az árucikk neve utána jobb oldalon a hiányzó mennyiséget látjuk az árucikkből.
 
-> Csak a kitből hiányos alapanyag kódot fogad el a rendszer. Ha bármilyen okból egyég alapanyagot is szeretnénk a kitbe mozgatni, akkor azt az [Átraktározás](./Atraktarozas) funkcióval tudjuk külön megtenni.
+> Csak a kitből hiányos alapanyag kódot fogad el a rendszer. 
+
+> Ha a KIT tartalmaz a gyártási lista szerint felesleges anyagot, vagy mennyiséget, akkor a felesleget negatív előjelletl és más színnel kiemelve jelzi. A felesleges mennyiséget most eltüntetni nem tudjuk, a kitszedés műveletet lezárva, az [Átraktározás](atraktarozas.md) funkcióval tudjuk a kitből eltüntetni.
 
 Ha olyan alapanyagot választunk ki, amiből nincs raktáron, akkor a rendszer nem engedi folytatni a műveletet.
 
@@ -35,7 +43,7 @@ Ha olyan alapanyagot választunk ki, amiből nincs raktáron, akkor a rendszer n
 
 Az árucikk kiválasztása vagy beolvasása után az alábbihoz hasonló oldalt kapunk:
 
-![Kivét hely kiválasztása](image-2.png)
+![alt text](image-1.png)
 
 Látjuk az árucikk nevét és leírását. Hiány sorban a kitbe még kiszedendő mennyiséget.
 A Kivét sorba kéri a rendszer azt a raktárhelyet, ahonnan a szedést végrehejtjuk.

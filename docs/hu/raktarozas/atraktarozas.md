@@ -1,6 +1,6 @@
 # Átraktározás
 
-Az átraktározás egy tetszőleges árucikket bármelyik olyan raktárhelyről, ahol van készleten bármelyik raktárhelyre át tudunk mozgatni.
+Az átraktározás egy tetszőleges árucikket bármelyik olyan raktárhelyről, ahol van készleten bármelyik raktárhelyre át tudunk mozgatni, kivéve KIT raktárhelyekre.
 
 Ez a művelet nem gyártás specifikus, vagyis akkor tudjuk indítani, ha nincs elindított műveletünk.
 

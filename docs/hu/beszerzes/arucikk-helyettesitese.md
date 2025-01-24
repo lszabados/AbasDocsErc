@@ -15,7 +15,6 @@ Ha a javaslatban olyan tétel szerepel, ami helyett a beszerzés mást rendelne,
 példának vegyük a FIN385100240060 árucikket, amiből a jelenlegi készlet 133 db
 Az adott cikknek meg kell nézni a tervlapját:
 
-
 ![alt text](image-33.png)
 
 Látható, hogy a nyíllal jelzett pontig a tervezett gyártások még a régi készlettel teljesíthetőek. Ekkor 21 db marad a készlet.

@@ -100,6 +100,7 @@ Kifutó vagy egyéb okból kicserélendő alapanyag esetén nem elegendő csak m
 
 Ennek ügymenete a [Árucikk helyettesítése](arucikk-helyettesitese.md) leírásban található.
 
+
 ### Beszerzési részleg feladata
 
 Igazából ebben a logikában a beszerzési részlegen nem kell sokat gondolkodni mit és mikor rendeljünk, mert azonnal rendelünk mindent amit az ABAS javasol.

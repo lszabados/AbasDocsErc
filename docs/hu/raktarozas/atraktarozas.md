@@ -22,7 +22,12 @@ Ide kell az árucikk kódját beolvasni. Célszerű a polcról a címke beolvas�
 
 Ha a rendszer megtalálta az árucikket, akkor az árucikk neve alatt megjelenik az árucikk leírása is.
 
-A gombsor alatt azonnal megjelnik hol van elérhető készlet az árucikkből.
+A gombsor alatt azonnal megjelnik hol van elérhető készlet az árucikkből, ami a kivét hely választásához ad segítséget. Az INP kezdetű raktárhelyek ki is választhatóak.
+
+Szintén látható az árucikk alapértelmezett raktárhelye is minden raktárcsoportra. Ez pedig esetleg a Bevét hely kiválasztásához lehet segítség.
+
+![alt text](image-60.png)
+
 
 ## Kivét raktárhely
 
@@ -52,3 +57,10 @@ A mennyiségnél 0-nál nagyobb és maximum a kivét raktárhely mennyisége adh
 Ez az opcionális pipa a bevét raktárhelynél megadott raktárhelyet állíja be alapértelmezett raktárhelynek. Ez akkor lehet indokolt, ha úgy döntünk, hogy a cikket a továbbiakban máshol készletezzük.
 
 > Fontos! Jelenleg ez a funkció csak a belső raktárcsoporton működik!
+
+## Nyomtatások
+
+Amennyiben van árucikk kiválasztva egy nyomtató ikon jelenik meg. Rákattintva azonnal kijön egy árucikk címke a nyomtatóból.
+Ha a cél raktárhely ki van töltve, akkor pedig egy "hely" ikon jelenik meg, amivel polc címkét tudunk nyomtatni.
+
+![alt text](image-61.png)

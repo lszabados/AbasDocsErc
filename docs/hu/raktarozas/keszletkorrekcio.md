@@ -37,5 +37,11 @@ Opcionális. Ha bepipáljuk, akkor a megadott raktárhely lesz az új kivét rak
 
 > Fontos! Jelenleg ez a funkció csak a belső raktárcsoporton működik!
 
-
 ![Mentés előtt](image-9.png)
+
+## Nyomtatások
+
+Amennyiben van árucikk kiválasztva egy nyomtató ikon jelenik meg. Rákattintva azonnal kijön egy árucikk címke a nyomtatóból.
+Ha a cél raktárhely ki van töltve, akkor pedig egy "hely" ikon jelenik meg, amivel polc címkét tudunk nyomtatni.
+
+![alt text](image-61.png)

@@ -43,6 +43,7 @@ Cél raktárhely az árucikk beállításai alapján automatikusan kitöltésre 
 
 
 **Opció* Ha itt a mégsem gombra kattintunk, akkor a rendszer törli a mennyiség mezőt és a cél raktárhely mezőt szerkeszthetővé teszi, hogy másik célt tudjuk megadni.
+Ekkor láthatjuk a kiválasztott termék alapértemezett raktárhelyét minden raktárcsoportra, ahol definiálva van.
 
 ![alt text](image-31.png)
 
@@ -52,7 +53,6 @@ A mentéssel az átraktározás megtörténik és a rendszer újból a cikket k�
 
 Kilépni akkor tudunk, ha itt az első lépésnél ismét a mégsem-et választjuk.
 
-## Gyakorlati tanács
 
 
 

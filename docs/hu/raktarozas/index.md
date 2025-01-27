@@ -21,6 +21,7 @@ A raktározás az alábbi leírásokat foglalja össze
 - [Revízióváltás anyagváltozás elemzése infosystem](raktarmozgas-igenyles-infosystem.md)
 - [Üzemi raktárhelyek](uzemi-raktarhelyek.md)
 - [Üzemi raktárhely feltöltés](uzem-raktarhely-feltoltes.md)
+- [Infó](info.md)
 
 A [Beszerzési szállítólevelek](../beszerzes/szallitolevel.md) rögzítése is a Raktár feladata, de ezen funkciók leírásai a [Beszerzés](../beszerzes/index.md) részen található.
 

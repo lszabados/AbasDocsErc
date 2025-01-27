@@ -5,20 +5,25 @@
             "path": "index.md"
         },
         {
-            "text": "Menük és beállítások",
-            "path": "menuk-beallitasok.md"
-        },
-        {
-            "text": "Mask",
-            "path": "mask.md"
-        },
-        {
-            "text": "Diszpozíció",
-            "path": "diszpozicio.md"
-        },
-        {
-            "text": "Infosystem",
-            "path": "infosystem.md"
+            "text": "Alaprendszer",
+            "items": [
+                {
+                    "text": "Menük és beállítások",
+                    "path": "menuk-beallitasok.md"
+                },
+                {
+                    "text": "Mask",
+                    "path": "mask.md"
+                },
+                {
+                    "text": "Diszpozíció",
+                    "path": "diszpozicio.md"
+                },
+                {
+                    "text": "Infosystem",
+                    "path": "infosystem.md"
+                }
+            ]
         },
         {
             "text": "BDE",
@@ -47,10 +52,6 @@
                     "path": "beszerzes/beszerzesi-javaslatok.md"
                 },
                 {
-                    "text": "Árucikk helyettesítése",
-                    "path": "beszerzes/arucikk-helyettesitese.md"
-                },
-                {
                     "text": "Ajánlatkérések",
                     "path": "beszerzes/ajanlatkeresek.md"
                 },
@@ -75,12 +76,21 @@
                     "path": "beszerzes/arak/arak.md"
                 },
                 {
-                    "text": "Árucikk hibás árlista keresése",
-                    "path": "beszerzes/arucikk-hibas-arlista-keresese.md"
-                },
-                {
-                    "text": "Mennyiségi újraértékelés",
-                    "path": "beszerzes/mennyisegi-ujraertekeles.md"
+                    "text": "Egyéb",
+                    "items": [
+                        {
+                            "text": "Árucikk hibás árlista keresése",
+                            "path": "beszerzes/arucikk-hibas-arlista-keresese.md"
+                        },
+                        {
+                            "text": "Árucikk helyettesítése",
+                            "path": "beszerzes/arucikk-helyettesitese.md"
+                        },
+                        {
+                            "text": "Mennyiségi újraértékelés",
+                            "path": "beszerzes/mennyisegi-ujraertekeles.md"
+                        }
+                    ]
                 }
             ]
         },
@@ -88,7 +98,6 @@
             "text": "Értékesítés",
             "path": "ertekesites/index.md",
             "items": [
-                
                 {
                     "text": "Ajánlat",
                     "path": "ertekesites/ajanlat.md"
@@ -116,76 +125,96 @@
             "path": "raktarozas/index.md",
             "items": [
                 {
-                    "text": "Címkenyomtatás",
-                    "path": "raktarozas/labelprint.md"
+                    "text": "ABAS",
+                    "items": [
+                        {
+                            "text": "Átraktározási-javaslatok",
+                            "path": "raktarozas/atraktarozasi-javaslatok.md"
+                        },
+                        {
+                            "text": "Bejovő készlet pótláshoz",
+                            "path": "raktarozas/bejovo-keszlet-potlashoz.md"
+                        },
+                        {
+                            "text": "Kitszedés Infosystem",
+                            "path": "raktarozas/kitszedes-infosystem.md"
+                        },
+                        {
+                            "text": "Manuális raktárkönyvelsés",
+                            "path": "raktarozas/manualis-raktarkonyveles.md"
+                        },
+                        {
+                            "text": "Üzemi raktárhelyek",
+                            "path": "raktarozas/uzemi-raktarhelyek.md"
+                        },
+                        {
+                            "text": "Üzemi raktárhelyek feltöltése",
+                            "path": "raktarozas/uzem-raktarhely-feltoltes.md"
+                        },
+                        {
+                            "text": "Árucikk mozgás kérelem űrlap",
+                            "path": "raktarozas/arucikk-mozgas-kerelem.md"
+                        },
+                        {
+                            "text": "Revízióváltás raktárigény Infosystem",
+                            "path": "raktarozas/raktarmozgas-igenyles-infosystem.md"
+                        }
+                    ]
                 },
                 {
-                    "text": "Átraktározás",
-                    "path": "raktarozas/atraktarozas.md"
+                    "text": "PDA",
+                    "items": [
+                        {
+                            "text": "Átraktározás",
+                            "path": "raktarozas/atraktarozas.md"
+                        },
+                        {
+                            "text": "Bejövő készlet helyre rakása",
+                            "path": "raktarozas/bejovo-keszlet-helyre-rakasa.md"
+                        },
+                        {
+                            "text": "Készletkorrekció",
+                            "path": "raktarozas/keszletkorrekcio.md"
+                        },
+                        {
+                            "text": "Kitszedés",
+                            "path": "raktarozas/kitszedes.md"
+                        },
+                        {
+                            "text": "Infó",
+                            "path": "raktarozas/info.md"
+                        }
+                    ]
                 },
                 {
-                    "text": "Átraktározási-javaslatok",
-                    "path": "raktarozas/atraktarozasi-javaslatok.md"
-                },
-                {
-                    "text": "Bejövő készlet helyre rakása",
-                    "path": "raktarozas/bejovo-keszlet-helyre-rakasa.md"
-                },
-                {
-                    "text": "Bejovő készlet pótláshoz",
-                    "path": "raktarozas/bejovo-keszlet-potlashoz.md"
-                },
-                {
-                    "text": "Bestand infosystem",
-                    "path": "raktarozas/bestand-infosystem.md"
-                },
-                {
-                    "text": "Készletkorrekció",
-                    "path": "raktarozas/keszletkorrekcio.md"
-                },
-                {
-                    "text": "Kitszedés",
-                    "path": "raktarozas/kitszedes.md"
-                },
-                {
-                    "text": "Kitszedés Infosystem",
-                    "path": "raktarozas/kitszedes-infosystem.md"
-                },
-                {
-                    "text": "Manuális raktárkönyvelsés",
-                    "path": "raktarozas/manualis-raktarkonyveles.md"
-                },
-                {
-                    "text": "Raktár, Raktárhely, Raktárcsoport",
-                    "path": "raktarozas/raktar-raktarhely-raktarcsoport.md"
-                },
-                {
-                    "text": "Tervlap",
-                    "path": "raktarozas/tervlap.md"
-                },
-                {
-                    "text": "Üzemi raktárhelyek",
-                    "path": "raktarozas/uzemi-raktarhelyek.md"
-                },
-                {
-                    "text": "Üzemi raktárhelyek feltöltése",
-                    "path": "raktarozas/uzem-raktarhely-feltoltes.md"
-                },
-                {
-                    "text": "Nulla készlettel rendelkező mennyiségek törlése",
-                    "path": "raktarozas/nulla-keszlettel-rendelkezo-mennyisegek-torlese.md"
-                },
-                {
-                    "text": "Árucikk mozgás kérelem űrlap",
-                    "path": "raktarozas/arucikk-mozgas-kerelem.md"
-                },
-                {
-                    "text": "Revízióváltás raktárigény Infosystem",
-                    "path": "raktarozas/raktarmozgas-igenyles-infosystem.md"
-                },
-                {
-                    "text": "Árucikk és Polc címke nyomtatás Infosystem",
-                    "path": "raktarozas/labelprint.md"
+                    "text": "Egyéb",
+                    "items": [
+                        {
+                            "text": "Raktár, Raktárhely, Raktárcsoport",
+                            "path": "raktarozas/raktar-raktarhely-raktarcsoport.md"
+                        },
+                        {
+                            "text": "Bestand infosystem",
+                            "path": "raktarozas/bestand-infosystem.md"
+                        },
+                        {
+                            "text": "Tervlap",
+                            "path": "raktarozas/tervlap.md"
+                        },
+                        {
+                            "text": "Nulla készlettel rendelkező mennyiségek törlése",
+                            "path": "raktarozas/nulla-keszlettel-rendelkezo-mennyisegek-torlese.md"
+                        },
+                        {
+                            "text": "Árucikk és Polc címke nyomtatás Infosystem",
+                            "path": "raktarozas/labelprint.md"
+                        },
+                        {
+                            "text": "Címkenyomtatás",
+                            "path": "raktarozas/labelprint.md"
+                        }
+                        
+                    ]
                 },
                 {
                     "text": "Leltár",
@@ -259,7 +288,7 @@
         },
         {
             "text": "Törzsadatok",
-             "path": "torzsadatok/index.md",
+            "path": "torzsadatok/index.md",
             "items": [
                 {
                     "text": "Árak",
@@ -316,61 +345,79 @@
             "path": "gyartas/index.md",
             "items": [
                 {
-                    "text": "Gyártási központ",
-                    "path": "gyartas/gyartasi-kozpont.md"
+                    "text": "Gyártás áttekintése",
+                    "items": [
+                        {
+                            "text": "Gyártási központ",
+                            "path": "gyartas/gyartasi-kozpont.md"
+                        },
+                        {
+                            "text": "Gyártási állapot",
+                            "path": "gyartas/gyartasi-allapot.md"
+                        },
+                        {
+                            "text": "Megbízások készültsége",
+                            "path": "gyartas/megbizasok-keszultsege.md"
+                        },
+                        {
+                            "text": "Hiánylista",
+                            "path": "gyartas/hianylista.md"
+                        }
+                    ]
                 },
                 {
-                    "text": "Gyártási javaslatok elfogadása",
-                    "path": "gyartas/gyartasi-javaslatok-elfogadas.md"
+                    "text": "Gyártás folyamatok",
+                    "items": [
+                        {
+                            "text": "Gyártási javaslatok elfogadása",
+                            "path": "gyartas/gyartasi-javaslatok-elfogadas.md"
+                        },
+                        {
+                            "text": "Művelet megkezsése",
+                            "path": "gyartas/muvelet-megkezdese.md"
+                        },
+                        {
+                            "text": "Művelet lezárása",
+                            "path": "gyartas/muvelet-lezarasa.md"
+                        },
+                        {
+                            "text": "Művelet könyvelése",
+                            "path": "gyartas/muvelet-konyvelese.md"
+                        },
+                        {
+                            "text": "Gyors visszajelentések",
+                            "path": "gyartas/gyors-visszajelentesek.md"
+                        },
+                        {
+                            "text": "Papírok nyomtatása",
+                            "path": "gyartas/papirok-nyomtatasa.md"
+                        }
+
+                    ]
                 },
                 {
-                    "text": "Gyártási állapot",
-                    "path": "gyartas/gyartasi-allapot.md"
-                },
-                {
-                    "text": "Megbízások készültsége",
-                    "path": "gyartas/megbizasok-keszultsege.md"
-                },
-                {
-                    "text": "Művelet könyvelése",
-                    "path": "gyartas/muvelet-konyvelese.md"
-                },
-                {
-                    "text": "Művelet megkezsése",
-                    "path": "gyartas/muvelet-megkezdese.md"
-                },
-                {
-                    "text": "Művelet lezárása",
-                    "path": "gyartas/muvelet-lezarasa.md"
-                },
-                {
-                    "text": "Papírok nyomtatása",
-                    "path": "gyartas/papirok-nyomtatasa.md"
-                },
-                {
-                    "text": "Gyors visszajelentések",
-                    "path": "gyartas/gyors-visszajelentesek.md"
-                },
-                {
-                    "text": "Hiánylista",
-                    "path": "gyartas/hianylista.md"
-                },
-                {
-                    "text": "Szétszerelés",
-                    "path": "gyartas/szetszereles.md"
-                },
-                {
-                    "text": "Selejtezés",
-                    "path": "gyartas/selejtezes.md"
-                },
-                {
-                    "text": "Részlegváltás",
-                    "path": "gyartas/reszlegvaltas.md"
-                },
-                {
-                    "text": "Elindított gyártás törlése",
-                    "path": "gyartas/elinditott-gyartas-torlese.md"
+                    "text": "Gyártás kezelése",
+                    "items": [
+
+                        {
+                            "text": "Szétszerelés",
+                            "path": "gyartas/szetszereles.md"
+                        },
+                        {
+                            "text": "Selejtezés",
+                            "path": "gyartas/selejtezes.md"
+                        },
+                        {
+                            "text": "Részlegváltás",
+                            "path": "gyartas/reszlegvaltas.md"
+                        },
+                        {
+                            "text": "Elindított gyártás törlése",
+                            "path": "gyartas/elinditott-gyartas-torlese.md"
+                        }
+                    ]
                 }
+                
             ]
         }
     ]

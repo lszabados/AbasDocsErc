@@ -20,18 +20,30 @@ A nyitott mennyiség amit még nem jelentettünk késznek, a lezárt pedig a ké
 > Jó mennyiséget csak max a nyitott mennyiség értékéig jelenthetünk le.
 > Utómunka a már készlek jelentett műveletnél lehetséges, ezért az értéke max a legyártott mennyiség lehet.
 
-### Idő lejelentése
+## MEO vagy TESZT lezárása 
+
+![alt text](image-28.png)
+
+MEO vagy TESZT műveleteknél megjelenik egy további kapcsoló, amivel úgy tudjuk készre jelenteni a műveletet, hogy közben jelezzük a rendszerrel, hogy a műveletet valójában nem végeztük el.
+Vagyis, ha pl. nem végezzük el a MEO műveletet, a továbblépéshez akkor is le kell jelenteni jó mennyiségnek, hogy az ABAS a gyártást továbbengedje. Ekkor a jelöléssel konkrétan elmentjük, hogy itt a meózás elmaradt, így engedtük tovább a terméket. Később, egy esetleges reklomáció feldolgozásakor ennek nagy jelentősége lehet.
+
+Ez az információ a későbbiekben kiértékelhető, a BDE adatbázisban a Megszakítás okaként szerepel a NoMeo vagy NoTest érték.
+
+![alt text](image-70.png)
+
+
+## Idő lejelentése
 
 Amennyiben nincs kész a művelet bármi okból, akkor a jó mennyiségnek és az utómunka mennyiségnek is 0 értéken kell maradnia.
 Lezárással befejezzük a műveletet, csak az idő könyvelődik.
 
-### Mennyiség lejelentése
+## Mennyiség lejelentése
 
 Amennyiben elkészült a művelet, akkor a nyitott mennyiség értékéig, le tudjuk jelenteni. A jó mennyiség értékéhez írjuk be az elkészül mennyiséget.
 
 Ebben az esetben mennyiség és idő is könyvelődik
 
-### Utómunka lejelentése
+## Utómunka lejelentése
 
 Amikor valami okból a lezárt művelethez kellmég időt lejelenteni, akkor utómunkát jelentünk le.
 

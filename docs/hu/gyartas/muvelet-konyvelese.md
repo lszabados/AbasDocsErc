@@ -46,6 +46,24 @@ Selejt valójában nem a műveletre fog vonatkozni, a rendszer 0 selejtet fog k�
 Utómunka esetén a már lejelentett mennyiség értékéig lehet darabszámot megadni és a korábbi lejeletéseknél hiányzó alapanyagok lejelentésére használjuk. Pl. már készre jelentett mechanikából még hiányzott egy alapanyag, ezt utómunkában lejelentjük, hogy beszereltük. 
 Természetesen az alapanyagnak az üzemi raktárhelyen kell lennie.
 
+#### Nem elvégzett MEO és TESZT visszajelentések
+
+A gyártási folyamatot akkor lehet folytatni, ha az ABAS-nak a műveletek elvégzését visszaigazoljuk.
+
+Ha a visszajelentésnél úgy jelentjük a MEO és/vagy TESZT műveleteket jó mennyiséggel vissza, hogy közben bejelöltük a "MEO nélkül" vagy "TESZT nélkül" lehetőséget, akkor a BDE rekordban a Megszakítás oka kitöltésre kerül.
+
+A program ezeket az eseteket úgy jelöli, hogy piros színre vát a TESZT vagy a MEO művelet.
+
+Amennyiben téves ez a jelölés, akkor törölni kell. Ezt az utolsó oszlop felszúrásával lehet 
+
+![alt text](image-72.png)
+
+Szerkesztés módban az üres lehetőséget kell választani.
+
+![alt text](image-71.png)
+
+> Egyértelmű, hogy a visszajelentés könyvelése előtt kell ezt megtenni, később már nem lehetséges.
+
 ### Alapanyag felhasználás lejelentése
 
 ![alt text](image-22.png)
@@ -56,4 +74,7 @@ Ez a mennyiség a "Jó darab elfogadott" oszlop értékétől függően változh
 Ezen túlmenően a Raktárhely oszlopban lévő raktárhelyen keresi az alapanyagot a rendszer. Amennyiben itt nincs vagy nem elegendő mennyiség van, akkor a "Jó darab elfogadott" oszlopban lévő értéket csökkenti, vagyis csak azt a mennyiséget engedi könyvelni, ami rendelkezésre is áll. A "Raktáron" oszlopban láthatjuk, hogy mekkora készletet lát az ABAS az adott raktárhelyen.
 
 Amennyiben tudjuk, hogy egy alapanyagot nem tettünk bele, akkor lehet a visszajelntett mennyiséget csökkenteni, de nem javaslom ezt ha amúgy nincs hiány. Ilyen esetben inkább 0 mennyiséget jelentsünk, és csak akkor jelentsük le a mennyiséget, ha kész a művelet teljesen.
+
+
+
 

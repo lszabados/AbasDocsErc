@@ -27,7 +27,7 @@ A kötős papírnak fő fejléc adatai:
 
 A sorok táblázatos részen, vagy sornagyítóval maskon is tölthetőek. A sor típusától függően tölthetőek vagy sem az egyes mezők.
 
-![alt text](image-25.png)
+![alt text](image-24.png)
 
 #### Vez/Kábel
 
@@ -71,17 +71,6 @@ Az OTHER (egyéb) sortípus esetén a hossz mezőbe a mennyiséget kell megadni!
 
 Jelenleg csak kábelek és vezetékek esetében lehet bejelölni. Ha bejelöljük, akkor automatikusan Vevői megrendelésre vonatkozóra lesz beállítva az alapanyag a gyártási listán.
 
-#### Összekötés pipa
-
-Csak vezeték esetén aktív.
-Ebből kettő is van, egy az "eleje" és egy a "vége" esetére. Ha a következő sorban lévő vezetékkel közösíteni kell az elejét vagy a végét, akkor itt jelöljük.
-
-> Fontos! A rendszer logikailag nem nézi, hogy a következő sor valóban vezeték e, és ha a sort másoljuk, mozgatjuk, akkor sem viszi magával az így "összekötött" sorokat. 
-
-#### Összekötés szöveges mező
-
-Csak kábel vezeték típusnál aktív. Ide tudunk hivatkozást beírni egy másik kábel vezetékére, amivel közösíteni kell. 
-
 #### Biléta
 
 Amennyiben bilétára nyomtatjuk a jelöléseket, akkor itt adhatjuk meg a biléta típusát. 
@@ -116,6 +105,10 @@ De lehet azért is semmi, mert az előző sorral közösítve egyetlen érvégbe
 ##### Hántolás
 
 Kábel esetében aktív mezők, és megadható a kábel 2 oldala milyen hosszan van hántolva.
+
+#### Bal oldal és jobb oldal 1,2,3,4,5 oszlopok
+
+Az átkötéseket tudjuk grafikusan jelölni, ami nyomtatásban is megjelenik
 
 ### Sor típus
 
@@ -179,23 +172,70 @@ A kötegelők, zsugorcsövek, stb megadására szolgál. Igazából bármi kieg�
 > Célszerűen a kötegelendő sorok elé vagy után szúrjuk beezeket a sorokat és az EMPTY sorokkal válasszuk szét az egy kötegbe tartozó sorokat, hogy egyértelműbb legyen. Ha kell használjuk a megjegyzés mezőt további magyarázathoz.P
 
 
-## Betöltő programok
+## Export / Import műveletek
 
-A meglévő EXEL alapú fileok betöltését segíti. Használatához egy előkészített, kötött formátumú excel file-ba kell az adatokat átmásolni, és esetlegesen az javítani. Ebből az excelből lehet az adatokat az ABAS programba átmásolni vágólap segítségével.
+Egy excel fileban sokkal gyorsabbal lehet sorokat felvenni, vagy tömeges módosításokat elvégezni. A rendszer ehhez az alábbiakat biztosítja:
 
-Mivel a vezeték és kábel kötőspapítok adattartalma és struktúrája az excelben eltér, ezért a betöltés is külön végzendő.
+- Export funkció az adatok lementéséheu
+- Formázott excel sablon, az adatok szerkesztéséhez, ami az import kimenetet is biztosítja
+- Import funkciót az adatok visszatöltéséhez
 
-### Vezeték betöltés
+### Export
 
-A vezeték betöltés egy speciálisan előkészített excel formátumból tudja a vezetéklistát betölteni. A meglévő excel alapú kötőspapírok gyors(abb) importálására.
+A MASK bal felső sarkában található gombbal tudjuk az adatokat exportálni. Csak olvasási nézetben működik!
+Exporttal egy CSV fileba tudjuk az adatokat exportálni.
+Export végén a rendszer kiírja az elkészült fájl elérési útját.
 
-> A betöltést mindenképpen a meglévő sorok alá végzi a rendszer, amit tetszőlegesen betöltés után áthelyezhetünk.
+![alt text](image-25.png)
 
-### Kábel betöltés
+Ezt az elérési utat tudjuk használni az adatok excelbe történő beolvasásakor.
 
-A kábel betöltés egy speciálisan előkészített excel formátumból tudja a kábel listát betölteni. A meglévő excel alapú kötőspapírok gyors(abb) importálására.
+### Excel sablon használata
 
-> A betöltést mindenképpen a meglévő sorok alá végzi a rendszer, amit tetszőlegesen betöltés után áthelyezhetünk.
+Az excel sablont nyissuk meg a `\\10.254.99.103\huerp\excel\KOTOS_PAPIR_IMPORT_EXPORT.xlst` sablont.
+
+> Ha a windosban még a sablon nincs társítva, akkor tegyük meg. Át is másolhatjuk a sablont a helyi gépünkre, ha úgy kényelmesebb a megnyitás.
+
+A sablon lényege, hogy mindíg egy új dokumnetum készül a sablon alapján, így az eredeti sablon mindig megmarad.
+
+A megynitott sablonba be kell importálni a CSV adatokat.
+
+Az EXCEL Adatok fülén az "Adatok beolvasása és átalakítása/Szövegből vagy CSV-fileból" lehetőséget válasszuk és a filenévhez másoljuk át a teljes elérési utat, amit az ABAS megadott.
+
+![alt text](image-30.png)
+
+
+A felugró ablakban a kódolást UTF-8-ra állítsuk és a betöltés gombbal indítsuk el a beolvasást.
+
+![alt text](image-31.png)
+
+Az EXCEL az adatokat minden esetben egy külön fülre tölti be.
+
+Az adatokat másoljuk át a DATA fülre. Ehhez az A2 cellán állva, nyomjuk meg a Shift+CTRL+END billentyűkombinációt, majd CTRL+C-vel másoljuk ki az adatokat a vágólapra.
+Válasszuk ki a DATA fület és az A2 cellára navigálva a CTRL+V billentyűkombinációval illesszük be az adatokat.
+
+> Formázás nélkül is másolhatjuk az adatokat.
+
+> A CSV exportkor létrejött fület törölhetjük, hogy kisebb legyen a file mérete, de nem kötelező.
+
+Az excelt szerkeszthetjük. Lehet sorokat beszúrni, törölni, stb.
+
+Vannak oszlopok, amik csak meghatározott értékeket tartalmazhatnak.
+
+A változtatások végeztével az Export fülről kell az adatokat az ABAS-nak megadni.
+Itt egyetlen oszlop található, itt kell a 2. sortól (fejléc nélkül) az összes sort kijelölni és CTRL+C-vel a vágólapra másolni a tartalmat.
+
+### Importálás
+
+A Kötős MASK-on az importálást választva felugrik egy szerkesztő ablak. Ennek az utolsó sora után (üres sor nélkül) kell beilleszteni az adatokat.
+
+![alt text](image-32.png)
+
+Ha beillesztettük a sorokat, mentsünk és zárjuk be az ablakot. Bezárás után azonnal elindul az importálás.
+
+> Importáláskor minden korábbi sor törlődik, és az importált sorok kerülnek beillesztésre.
+
+> Ha nem szeretné a meglévő sorokat törölni,, akkor a szerkesztő mező utolsó sorát `-*\` törölje ki, és ide illessze a sorokat.
 
 ## Sommázás
 

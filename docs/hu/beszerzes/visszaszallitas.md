@@ -19,7 +19,7 @@ Mivel a visszaszállítás egy beszerzési folyamatot fordít meg, azért célsz
 
 ## Storno szállítólevél
 
-A szállítólevél stornozása megoldás lehet, de igazából nem megfelelő. Egyrészt nem valószínű, vagy elenyésző az az eset, amikor a teljes szllított tételt visszaszállítunk. Valamint a storno szállítólevél a készletet valóban csökkenti, de nem lehet alapja a visszaszállítás tényének, vagysi a szállítás során ez nem bizonylat.
+A szállítólevél stornozása megoldás lehet, de igazából nem megfelelő. Egyrészt nem valószínű, vagy elenyésző az az eset, amikor a teljes szállított tételt visszaszállítunk. Valamint a storno szállítólevél a készletet valóban csökkenti, de nem lehet alapja a visszaszállítás tényének, vagyis a szállítás során ez nem bizonylat.
 
 ## Visszaszállító levél
 
@@ -67,12 +67,31 @@ A visszaszállítás azon a ponton történk, ahol az áruátvétel. Standardan 
 
 Ehhez, ha a visszaszállítást nem a raktár kezdeményezte, akkor ki kell állítani egy [Árucikk mozgási kérelmet](../raktarozas/arucikk-mozgas-kerelem.md).
 
+## Annak megállapítása, hogy a visszaszállítandó árucikk melyik folyamattal indult 
+
+Az abasznak azt a szállítólavelet kell megadni, aminn az adott árucikk bejött. Fontos, hogy az abas, követi a a konkrét cikk folyamatát, vagyis nem tetszőleges, melyik szállítólevelet választjuk ki.
+
+Első lépésben keressük meg a konkrét árucikket. Ha már belejelentettük egy panelba, ki kell szerelni, és kiszereléskor egy adott raktárhelyre kerül.
+Keressük meg a cikket a raktárhelyen a készlet infó Infosystemmel. A gyűjtés és "Nulla készletekkel" jelölöt vegyük ki, Részletek legyen bekapcsolva.
+
+![alt text](image-34.png)
+
+Látható, hogy a raktárhelyen 2 db termék van, és a részletek sor végén ott a szállító aminn bejött. (A folyamat oszlopban a szemre kattintva, meg is nyílik a szállítólevél). Teljesen mindegy, hogy közben a cikk hány raktárhelyen fordult meg, beszereltük, kiszereltük, stb, az ABAS tudja, melyik szállítóval jött be. Visszaszállításnál errea a szállítóra kell hivatkozni.
+
+> Itt fontos, hogy ebben a pillanatban , ha pl. 4 terméket kell visszaküldeni láthetjuk ezt is:
+
+![alt text](image-35.png)
+
+Láthatjuk, hogy a raktárhelen lévő 4 db termék 2 szállítón érkezett be, vagyis visszaszállíásnál mindkét szállítóra hivatkozni kell, külön- külön sor lesz a visszaszállító levélen a 2-2 darab így tudjuk a 4 db-ot visszaszállítani.
+
+> Érdemes a visszaszállító levél elkészítése előtt tételesen leellenőrizni, melyik tétel melyik szállítólevéllel (akár többel) érkezett be, hogy tudjuk melyikre kell hivatkozni.
+
 ## Visszaszállítási központ
 
 A visszaszállítást nem minden esetben a beszerzési osztály kezdemémyezi, és jelneleg többnyire az iroda készíti a szállítóleveleket.
 Emiatt fontos, hogy az iroda megtudja, melyik szállítólevél tételeit küldjük vissza.
 
-A visszaküldésnél fontos az árucikk kódja, mennyisége, és ha ismert a szállítólevél száma, aminn bejött a tétel.
+A visszaküldésnél fontos az árucikk kódja, mennyisége, és a szállítólevél száma, aminn bejött a tétel.
 
 Azért, hogy azonosítani lehessen a bizonylatot, használjuk a visszaszállítási központ Infosystemet
 
